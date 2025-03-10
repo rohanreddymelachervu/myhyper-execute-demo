@@ -1,0 +1,13 @@
+global_timeout: 600
+
+framework:
+  name: pytest
+
+python:
+  version: 3.9
+
+install:
+  - pip install -r requirements.txt
+
+run:
+  - pytest --maxfail=1 --disable-warnings -q
