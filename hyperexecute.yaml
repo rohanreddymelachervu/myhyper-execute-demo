@@ -1,14 +1,7 @@
-version: "1.0"
+version: "2.0"
 global_timeout: 600
-
-framework:
-  name: pytest
-
-language: python
-python_version: "3.9"
-
 steps:
   - name: Install Dependencies
-    run: pip install -r requirements.txt
+    command: pip install -r requirements.txt
   - name: Run Tests
-    run: pytest --maxfail=1 --disable-warnings -q
+    command: pytest --maxfail=1 --disable-warnings -q
