@@ -1,0 +1,110 @@
+{
+    "id": "371a30e5-43b9-4fce-92e3-3338323da6ca",
+    "created_at": "2025-03-11T04:27:46Z",
+    "update_at": "2025-03-11T04:29:03Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-03-11T04:28:24Z",
+    "end_time": "2025-03-11T04:29:03Z",
+    "summary": {
+        "total_time": 39000000000,
+        "execution_time": 39000000000,
+        "total_tasks": 1,
+        "build_time_consumed": 39000000000,
+        "jobTestExecutionTime": "5s",
+        "failed_tasks": 1,
+        "total_stage_info": {
+            "postrun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            },
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=371a30e5-43b9-4fce-92e3-3338323da6ca"
+    },
+    "tasks": [
+        {
+            "id": "dd72da9c-8e24-4f81-b639-952527811187",
+            "os": "win",
+            "status": "failed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-03-11T04:28:23Z",
+            "update_at": "2025-03-11T04:29:03Z",
+            "start_time": "2025-03-11T04:28:24Z",
+            "end_time": "2025-03-11T04:29:03Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "73354d6f-d045-4212-890c-a62010da767d",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-03-11T04:28:25Z",
+                    "started_at": "2025-03-11T04:28:25Z",
+                    "updated_at": "2025-03-11T04:28:31Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "c16ab3aa-62b4-4730-94a4-0cd6eb0d40a1",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-03-11T04:28:31Z",
+                    "started_at": "2025-03-11T04:28:31Z",
+                    "updated_at": "2025-03-11T04:28:31Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "058db657-f088-4e49-8dc8-1c552f78cf6f",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/test_demoqa_hyperexecute.py",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-03-11T04:28:31Z",
+                    "started_at": "2025-03-11T04:28:33Z",
+                    "updated_at": "2025-03-11T04:29:02Z",
+                    "order": 4,
+                    "task_number": 1
+                },
+                {
+                    "id": "7b263a7a-7418-4d5f-b54d-bac5d750c186",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2025-03-11T04:28:31Z",
+                    "started_at": "2025-03-11T04:29:02Z",
+                    "updated_at": "2025-03-11T04:29:02Z",
+                    "order": 5,
+                    "task_number": 1
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

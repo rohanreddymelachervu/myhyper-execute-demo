@@ -32,7 +32,7 @@ def driver():
     options.set_capability("LT:Options", lt_options)
 
     # Use the HyperExecute (SmartUI) hub URL
-    hub_url = f"http://{LT_USERNAME}:{LT_ACCESS_KEY}@beta-smartui-hub.lambdatest.com/wd/hub"
+    hub_url = f"http://{LT_USERNAME}:{LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub"
 
     # Create the Remote WebDriver session
     driver = webdriver.Remote(
@@ -93,3 +93,6 @@ def test_demoqa_text_box(driver):
 
     # Mark the test as passed on LambdaTest
     driver.execute_script("lambda-status=passed")
+if __name__ == '__main__':
+    import sys
+    sys.exit(pytest.main(["-v", __file__]))
