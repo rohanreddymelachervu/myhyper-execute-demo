@@ -97,56 +97,63 @@
 #     import sys
 #     sys.exit(pytest.main(["-v", __file__]))
 
-# HyperTestPyUnit: DemoQA HyperExecute Test
+# HyperTestPyUnit: DemoQA HyperExecute Multi-Browser Test
 import os
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Fetch LambdaTest credentials from environment variables
-LT_USERNAME = os.getenv("LT_USERNAME")
-LT_ACCESS_KEY = os.getenv("LT_ACCESS_KEY")
+# Define capabilities for multiple browsers/OS combinations, including Linux
+capabilities = [
+    {"browserName": "Chrome", "browser_version": "latest", "platform_name": "Windows 10"},
+    {"browserName": "Firefox", "browser_version": "latest", "platform_name": "Windows 11"},
+    {"browserName": "Chrome", "browser_version": "latest", "platform_name": "Linux"},
+    {"browserName": "Firefox", "browser_version": "latest", "platform_name": "Linux"}
+]
 
-@pytest.fixture(scope="session")
-def driver():
-    # Set up Chrome capabilities
-    options = ChromeOptions()
-    options.browser_version = "latest"
-    options.platform_name = "Windows 10"
+@pytest.fixture(scope="session", params=capabilities)
+def driver(request):
+    cap = request.param
+    browser = cap.get("browserName", "").lower()
 
-    # HyperExecute / SmartUI options
+    # Choose the correct options based on the browser
+    if browser == "firefox":
+        from selenium.webdriver.firefox.options import Options as FirefoxOptions
+        options = FirefoxOptions()
+    else:
+        from selenium.webdriver.chrome.options import Options as ChromeOptions
+        options = ChromeOptions()
+
+    # Set capabilities from the parameter dictionary
+    for key, value in cap.items():
+        options.set_capability(key, value)
+
+    # Set LambdaTest-specific options
     lt_options = {
-        "username": LT_USERNAME,
-        "accessKey": LT_ACCESS_KEY,
+        "username": os.getenv("LT_USERNAME"),
+        "accessKey": os.getenv("LT_ACCESS_KEY"),
         "network": True,
         "build": "HyperExecute DemoQA Test Build",
         "smartUI.project": "HyperExecute DemoQA Testing",
-        "name": "HyperExecute DemoQA Text Box Test - Pytest",
+        "name": f"HyperExecute DemoQA Text Box Test - {cap['browserName']} on {cap['platform_name']}",
         "w3c": True,
         "plugin": "python-python"
     }
     options.set_capability("LT:Options", lt_options)
 
-    # Use the standard LambdaTest hub URL (change to beta-smartui-hub.lambdatest.com if needed)
-    hub_url = f"http://{LT_USERNAME}:{LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub"
-
-    # Create the Remote WebDriver session
-    driver = webdriver.Remote(
-        command_executor=hub_url,
-        options=options,
-    )
+    # Use the standard LambdaTest hub URL
+    hub_url = f"http://{os.getenv('LT_USERNAME')}:{os.getenv('LT_ACCESS_KEY')}@hub.lambdatest.com/wd/hub"
+    driver = webdriver.Remote(command_executor=hub_url, options=options)
     driver.maximize_window()
-
     yield driver
-    # Teardown
     driver.quit()
 
 def test_demoqa_text_box(driver):
     driver.implicitly_wait(10)
-    driver.set_page_load_timeout(30)
+    # Increase page load timeout if needed (for slower networks or Linux configurations)
+    driver.set_page_load_timeout(60)
 
     # Step 1: Navigate to DemoQA
     driver.get("https://demoqa.com/")
@@ -186,11 +193,10 @@ def test_demoqa_text_box(driver):
         EC.presence_of_element_located((By.ID, "output"))
     )
     assert output_section.is_displayed(), "Output section not displayed."
-
     output_text = output_section.text
     print("Output text:", output_text)
 
-    # Generate a simple artifact file containing the test output
+    # Generate an artifact file containing the test output
     artifact_dir = "example_report"
     if not os.path.exists(artifact_dir):
         os.makedirs(artifact_dir)
@@ -206,4 +212,5 @@ def test_demoqa_text_box(driver):
 if __name__ == '__main__':
     import sys
     sys.exit(pytest.main(["-v", __file__]))
+
 

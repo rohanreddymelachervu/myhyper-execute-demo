@@ -4,17 +4,26 @@ globalTimeout: 90
 testSuiteTimeout: 90
 testSuiteStep: 90
 
-runson: win
+runson: ${matrix.os}
+matrix:
+  os: ["win", "linux"]
+  browser: [chrome, firefox]
+
+parallelism: 1
+
+ 
+
 
 autosplit: true
 retryOnFailure: true
 
 maxRetries: 1
-concurrency: 1
+# concurrency: 2
+# combineTasksInMatrixMode: true
 
 env:
 #  PAT: ${{ .secrets.testKey }}
- TARGET_OS: Windows 11
+#  TARGET_OS: Windows 11
 
 cacheKey: '{{ checksum "requirements.txt" }}'
 cacheDirectories:
@@ -44,4 +53,4 @@ testDiscovery:
 
 testRunnerCommand: python3 $test
 
-jobLabel: [selenium-pyunit, win, autosplit]
+jobLabel: [selenium-pyunit, autosplit]

@@ -732,3 +732,1072 @@
 {"level":"info","time":"2025-03-11T10:18:00.356+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
 {"level":"info","time":"2025-03-11T10:18:00.356+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
 {"level":"debug","time":"2025-03-11T10:18:29.702+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-03-11T15:49:18.706+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T15:49:19.559+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"debug","time":"2025-03-11T15:49:22.427+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T15:49:22.427+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T15:49:22.428+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:49:22.428+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:49:23.373+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T15:49:23.374+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T15:49:23.374+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:49:23.375+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T15:49:23.375+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:49:23.375+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T15:49:23.375+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:49:23.375+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T15:49:24.246+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 6.90 % of your limit. Free trial mins left - 279.29\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T15:49:24.247+0530","caller":"core/lifecycle.go:512","msg":"Job ID: a77fc750-fc04-4065-a9ca-dfc9ea3e12c4"}
+{"level":"debug","time":"2025-03-11T15:49:24.247+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T15:49:24.247+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T15:49:24.248+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T15:49:24.248+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T15:49:24.262+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 7.19 kB"}
+{"level":"debug","time":"2025-03-11T15:49:24.262+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-a77fc750-fc04-4065-a9ca-dfc9ea3e12c4.zip\n"}
+{"level":"debug","time":"2025-03-11T15:49:24.262+0530","caller":"storage/azure.go:59","msg":"Payload size: 7.19 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-a77fc750-fc04-4065-a9ca-dfc9ea3e12c4.zip"}
+{"level":"debug","time":"2025-03-11T15:49:24.413+0530","caller":"storage/azure.go:59","msg":"Payload size: 11.30 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T15:49:25.424+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T15:49:34.575+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.312895417s"}
+{"level":"debug","time":"2025-03-11T15:49:34.575+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T15:49:34.576+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T15:49:34.576+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:49:34.577+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.84 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T15:49:42.607+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.19371075s"}
+{"level":"info","time":"2025-03-11T15:49:50.636+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.0589865s"}
+{"level":"debug","time":"2025-03-11T15:49:50.636+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-a77fc750-fc04-4065-a9ca-dfc9ea3e12c4.zip\n"}
+{"level":"debug","time":"2025-03-11T15:49:50.637+0530","caller":"storage/azure.go:59","msg":"Payload size: 800 B, source path mask-a77fc750-fc04-4065-a9ca-dfc9ea3e12c4.yaml"}
+{"level":"info","time":"2025-03-11T15:50:00.724+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.087249333s"}
+{"level":"debug","time":"2025-03-11T15:50:03.012+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: e6d45b87-dd1e-49bd-890f-ab7a21413b3a"}
+{"level":"debug","time":"2025-03-11T15:50:03.012+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: e6d45b87-dd1e-49bd-890f-ab7a21413b3a"}
+{"level":"info","time":"2025-03-11T15:50:04.359+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T15:50:04.788+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4ma77fc750-fc04-4065-a9ca-dfc9ea3e12c4\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:50:04.788+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a77fc750-fc04-4065-a9ca-dfc9ea3e12c4\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T15:50:13.133+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T15:50:13.406+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T15:51:10.984+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (54s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T15:51:37.742+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 1}\u001b[22m \u001b[2mtests/test_demoqa_hyperexecute.py (27s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T15:51:59.892+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (25s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T15:52:34.463+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 1}\u001b[22m \u001b[2mtests/test_demoqa_hyperexecute.py (35s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T15:52:39.394+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2025-03-11T15:52:39.394+0530","caller":"core/lifecycle.go:777","msg":"taskId:e6d45b87-dd1e-49bd-890f-ab7a21413b3a has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2025-03-11T15:52:39.394+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T15:52:39.394+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-03-11T15:52:39.395+0530","caller":"core/lifecycle.go:881","msg":"2025-03-11T15:49:17+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2025-03-11T15:52:39.395+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a77fc750-fc04-4065-a9ca-dfc9ea3e12c4\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T15:52:39.395+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T15:52:39.395+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-03-11T15:52:40.370+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[101m FAILED \u001b[0m\n"}
+{"level":"info","time":"2025-03-11T15:52:40.370+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[91m13s\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:52:40.370+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    2m34s"}
+{"level":"info","time":"2025-03-11T15:52:40.370+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          1"}
+{"level":"info","time":"2025-03-11T15:52:40.370+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             2m34s"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         5"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           0.00%"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         1"}
+{"level":"info","time":"2025-03-11T15:52:40.371+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-03-11T15:53:09.396+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2025-03-11T15:53:09.396+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2025-03-11T15:59:18.246+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T15:59:18.247+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T15:59:19.064+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T15:59:19.934+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T15:59:19.936+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T15:59:19.936+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T15:59:22.782+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T15:59:22.782+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T15:59:22.783+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:59:22.783+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:59:23.655+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T15:59:23.657+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T15:59:23.657+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T15:59:23.657+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:59:23.657+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:59:23.657+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:59:23.657+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:59:23.657+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T15:59:23.658+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:59:23.658+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T15:59:23.658+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T15:59:23.658+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T15:59:23.658+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:59:23.658+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T15:59:24.562+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 7.76 % of your limit. Free trial mins left - 276.72\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T15:59:24.562+0530","caller":"core/lifecycle.go:512","msg":"Job ID: 9b8b513d-4870-4f2a-a865-8fb86dfffb9b"}
+{"level":"debug","time":"2025-03-11T15:59:24.562+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T15:59:24.562+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T15:59:24.563+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T15:59:24.563+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T15:59:24.573+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 7.88 kB"}
+{"level":"debug","time":"2025-03-11T15:59:24.573+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-9b8b513d-4870-4f2a-a865-8fb86dfffb9b.zip\n"}
+{"level":"debug","time":"2025-03-11T15:59:24.573+0530","caller":"storage/azure.go:59","msg":"Payload size: 7.88 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-9b8b513d-4870-4f2a-a865-8fb86dfffb9b.zip"}
+{"level":"debug","time":"2025-03-11T15:59:24.722+0530","caller":"storage/azure.go:59","msg":"Payload size: 31.64 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T15:59:25.612+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T15:59:34.666+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.093350625s"}
+{"level":"debug","time":"2025-03-11T15:59:34.666+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T15:59:34.667+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T15:59:34.667+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T15:59:34.667+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.84 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T15:59:42.695+0530","caller":"storage/azure.go:114","msg":"File upload completed in 17.9732095s"}
+{"level":"info","time":"2025-03-11T15:59:50.737+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.070290125s"}
+{"level":"debug","time":"2025-03-11T15:59:50.738+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-9b8b513d-4870-4f2a-a865-8fb86dfffb9b.zip\n"}
+{"level":"debug","time":"2025-03-11T15:59:50.738+0530","caller":"storage/azure.go:59","msg":"Payload size: 800 B, source path mask-9b8b513d-4870-4f2a-a865-8fb86dfffb9b.yaml"}
+{"level":"info","time":"2025-03-11T16:00:00.795+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.056385542s"}
+{"level":"debug","time":"2025-03-11T16:00:02.872+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 87ad2b65-5b66-493f-889e-f1cecc7283cd"}
+{"level":"debug","time":"2025-03-11T16:00:02.872+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 87ad2b65-5b66-493f-889e-f1cecc7283cd"}
+{"level":"info","time":"2025-03-11T16:00:04.591+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:00:05.074+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m9b8b513d-4870-4f2a-a865-8fb86dfffb9b\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:00:05.074+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9b8b513d-4870-4f2a-a865-8fb86dfffb9b\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T16:00:12.301+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:00:12.583+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:01:06.044+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (49s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:01:27.274+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:01:50.065+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:01:50.450+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T16:01:54.930+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-03-11T16:01:54.931+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T16:01:54.931+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-03-11T16:01:54.931+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9b8b513d-4870-4f2a-a865-8fb86dfffb9b\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T16:01:54.931+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T16:01:54.931+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-03-11T16:01:56.163+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-03-11T16:01:56.164+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m26s\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    1m49s"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          1"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             1m49s"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         6"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-03-11T16:01:56.165+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-03-11T16:02:24.932+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2025-03-11T16:20:07.260+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:20:07.261+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:20:08.142+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T16:20:08.858+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T16:20:08.860+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:20:08.860+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:20:11.795+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T16:20:11.795+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T16:20:11.795+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:20:11.795+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:20:12.732+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T16:20:12.734+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:12.734+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T16:20:12.734+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:20:12.734+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T16:20:13.802+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 8.37 % of your limit. Free trial mins left - 274.89\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T16:20:13.803+0530","caller":"core/lifecycle.go:512","msg":"Job ID: d073c761-0516-495d-8219-e7f48ae37f03"}
+{"level":"debug","time":"2025-03-11T16:20:13.803+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T16:20:13.803+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T16:20:13.804+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T16:20:13.804+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T16:20:13.815+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 7.97 kB"}
+{"level":"debug","time":"2025-03-11T16:20:13.816+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-d073c761-0516-495d-8219-e7f48ae37f03.zip\n"}
+{"level":"debug","time":"2025-03-11T16:20:13.817+0530","caller":"storage/azure.go:59","msg":"Payload size: 7.97 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-d073c761-0516-495d-8219-e7f48ae37f03.zip"}
+{"level":"debug","time":"2025-03-11T16:20:13.987+0530","caller":"storage/azure.go:59","msg":"Payload size: 44.29 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T16:20:14.874+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T16:20:24.120+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.303514334s"}
+{"level":"debug","time":"2025-03-11T16:20:24.120+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T16:20:24.120+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T16:20:24.121+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:20:24.121+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.84 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T16:20:32.153+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.165969292s"}
+{"level":"info","time":"2025-03-11T16:20:40.176+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.0553075s"}
+{"level":"debug","time":"2025-03-11T16:20:40.177+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-d073c761-0516-495d-8219-e7f48ae37f03.zip\n"}
+{"level":"debug","time":"2025-03-11T16:20:40.178+0530","caller":"storage/azure.go:59","msg":"Payload size: 800 B, source path mask-d073c761-0516-495d-8219-e7f48ae37f03.yaml"}
+{"level":"info","time":"2025-03-11T16:20:50.261+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.082927042s"}
+{"level":"debug","time":"2025-03-11T16:20:52.311+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: a11cc3d6-c56f-406e-9c7b-6c5c6b1fee31"}
+{"level":"debug","time":"2025-03-11T16:20:52.311+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: a11cc3d6-c56f-406e-9c7b-6c5c6b1fee31"}
+{"level":"info","time":"2025-03-11T16:20:53.674+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:20:54.243+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4md073c761-0516-495d-8219-e7f48ae37f03\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:20:54.243+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d073c761-0516-495d-8219-e7f48ae37f03\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T16:21:02.186+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:21:02.500+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:22:16.358+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m13s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:22:58.344+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (45s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T16:22:58.541+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T16:23:02.851+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-03-11T16:23:02.851+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T16:23:02.852+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-03-11T16:23:02.852+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d073c761-0516-495d-8219-e7f48ae37f03\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T16:23:02.852+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T16:23:02.852+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m36s\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    2m7s"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          1"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             2m7s"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         5"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-03-11T16:23:03.531+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-03-11T16:23:03.532+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-03-11T16:23:32.852+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2025-03-11T16:27:59.433+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:27:59.434+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:28:00.213+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T16:28:01.007+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T16:28:01.009+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:28:01.009+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:28:03.814+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T16:28:03.814+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T16:28:03.814+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:28:03.814+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:28:04.637+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T16:28:04.639+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T16:27:59+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Unable to infer runson, runson is required for version 0.1"}
+{"level":"debug","time":"2025-03-11T16:28:04.639+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T16:28:04.639+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T16:28:04.639+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T16:28:04.639+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Unable to infer runson, runson is required for version 0.1"}
+{"level":"warn","time":"2025-03-11T16:53:56.199+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:53:56.199+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:53:56.978+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T16:53:57.663+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T16:53:57.665+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:53:57.665+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:54:00.454+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T16:54:00.454+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T16:54:00.455+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:54:00.455+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:54:00.455+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T16:54:01.345+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T16:54:02.082+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T16:53:56+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T16:54:02.082+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T16:54:02.082+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T16:54:02.082+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T16:54:02.082+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"warn","time":"2025-03-11T16:55:08.025+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:55:08.026+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:55:08.716+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T16:55:09.534+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T16:55:09.536+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:55:09.536+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:55:12.221+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T16:55:12.221+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T16:55:12.221+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:55:12.222+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:55:12.223+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T16:55:13.006+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T16:55:13.692+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T16:55:08+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T16:55:13.692+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T16:55:13.692+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T16:55:13.692+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T16:55:13.692+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"warn","time":"2025-03-11T16:56:11.196+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:56:11.197+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:56:11.897+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T16:56:12.715+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T16:56:12.717+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T16:56:12.717+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T16:56:15.424+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T16:56:15.424+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T16:56:15.424+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:56:15.424+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T16:56:15.425+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T16:56:16.244+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T16:56:17.004+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T16:56:11+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T16:56:17.004+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T16:56:17.004+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T16:56:17.004+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T16:56:17.004+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"warn","time":"2025-03-11T17:04:45.415+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:04:45.416+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:04:46.210+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T17:04:46.933+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T17:04:46.934+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:04:46.935+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:04:49.651+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T17:04:49.651+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T17:04:49.652+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:04:49.652+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:04:49.653+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T17:04:50.489+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T17:04:51.240+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T17:04:45+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T17:04:51.240+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T17:04:51.240+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T17:04:51.240+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T17:04:51.240+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"warn","time":"2025-03-11T17:05:07.331+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:05:07.331+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:05:08.010+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T17:05:08.782+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T17:05:08.786+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:05:08.787+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:05:11.569+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T17:05:11.569+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T17:05:11.569+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:05:11.570+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:05:11.571+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T17:05:12.594+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T17:05:13.269+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T17:05:07+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T17:05:13.269+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T17:05:13.269+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T17:05:13.269+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T17:05:13.269+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"warn","time":"2025-03-11T17:06:39.456+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:06:39.456+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:06:40.177+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T17:06:40.982+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T17:06:40.983+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:06:40.984+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:06:43.625+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T17:06:43.625+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T17:06:43.625+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:06:43.625+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"error","time":"2025-03-11T17:06:43.626+0530","caller":"yamlconfigmanager/setup.go:166","msg":"2025-03-11T17:06:39+05:30    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: unmarshal errors:\n  line 12: mapping key \"matrix\" already defined at line 8"}
+{"level":"error","time":"2025-03-11T17:06:43.626+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T17:06:39+05:30    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: unmarshal errors:\n  line 12: mapping key \"matrix\" already defined at line 8"}
+{"level":"debug","time":"2025-03-11T17:06:43.626+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T17:06:43.626+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T17:06:43.626+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T17:06:43.626+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: unmarshal errors:\n  line 12: mapping key \"matrix\" already defined at line 8"}
+{"level":"warn","time":"2025-03-11T17:07:01.898+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:07:01.898+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:07:02.653+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T17:07:03.498+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T17:07:03.500+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T17:07:03.500+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T17:07:06.275+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T17:07:06.275+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T17:07:06.275+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:07:06.275+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:07:06.276+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T17:07:07.096+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T17:07:07.976+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:541","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:595","msg":"Parallelism:    \u001b[36m Linux - 2 Windows - 2  Default - 2\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:07.976+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T17:07:07.976+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:07:07.977+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T17:07:08.904+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 9.08 % of your limit. Free trial mins left - 272.76\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T17:07:08.904+0530","caller":"core/lifecycle.go:512","msg":"Job ID: 4058cb12-036b-407f-914b-2c873a5d77f2"}
+{"level":"debug","time":"2025-03-11T17:07:08.904+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T17:07:08.904+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T17:07:08.905+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T17:07:08.905+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T17:07:08.920+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 8.12 kB"}
+{"level":"debug","time":"2025-03-11T17:07:08.921+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-4058cb12-036b-407f-914b-2c873a5d77f2.zip\n"}
+{"level":"debug","time":"2025-03-11T17:07:08.921+0530","caller":"storage/azure.go:59","msg":"Payload size: 8.12 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-4058cb12-036b-407f-914b-2c873a5d77f2.zip"}
+{"level":"debug","time":"2025-03-11T17:07:09.073+0530","caller":"storage/azure.go:59","msg":"Payload size: 78.65 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T17:07:10.000+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T17:07:19.235+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.314061583s"}
+{"level":"debug","time":"2025-03-11T17:07:19.235+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T17:07:19.236+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T17:07:19.236+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T17:07:19.236+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.25 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T17:07:29.269+0530","caller":"storage/azure.go:114","msg":"File upload completed in 20.196410833s"}
+{"level":"info","time":"2025-03-11T17:07:35.310+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.074173s"}
+{"level":"debug","time":"2025-03-11T17:07:35.311+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-4058cb12-036b-407f-914b-2c873a5d77f2.zip\n"}
+{"level":"debug","time":"2025-03-11T17:07:35.311+0530","caller":"storage/azure.go:59","msg":"Payload size: 952 B, source path mask-4058cb12-036b-407f-914b-2c873a5d77f2.yaml"}
+{"level":"info","time":"2025-03-11T17:07:45.369+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.057669292s"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 8d827959-6e9c-4e2e-91cb-584807ad95f6"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 8d827959-6e9c-4e2e-91cb-584807ad95f6"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: d83df8c4-b21a-4c9c-8a3a-1f3c4591f14d"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: d83df8c4-b21a-4c9c-8a3a-1f3c4591f14d"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 423180fd-85b1-4a81-b543-6001d87db3ff"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 423180fd-85b1-4a81-b543-6001d87db3ff"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 913ae253-c17b-40ae-a7af-26c537d6026d"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 913ae253-c17b-40ae-a7af-26c537d6026d"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 797398bf-5798-4d48-9459-e1203818924f"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 797398bf-5798-4d48-9459-e1203818924f"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 8bc4056d-f900-44cd-ba31-a9921b68709a"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 8bc4056d-f900-44cd-ba31-a9921b68709a"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: dbe415e2-6b80-4016-b594-389b87eef54c"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: dbe415e2-6b80-4016-b594-389b87eef54c"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 553045d8-f809-44b4-946e-930fe14fcbe9"}
+{"level":"debug","time":"2025-03-11T17:07:47.495+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 553045d8-f809-44b4-946e-930fe14fcbe9"}
+{"level":"info","time":"2025-03-11T17:07:48.977+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:07:49.057+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:07:49.496+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m4058cb12-036b-407f-914b-2c873a5d77f2\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:07:49.496+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=4058cb12-036b-407f-914b-2c873a5d77f2\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T17:08:07.194+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:08:07.493+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (18s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:08:07.556+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:08:07.794+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:42.832+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m35s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:43.154+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:46.367+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:50.768+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (5s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:50.910+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:52.106+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m43s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:52.425+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:09:56.726+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:10:04.224+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T17:10:04.420+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T17:11:45.634+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T17:11:47.226+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T17:13:27.267+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T17:13:29.019+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"error","time":"2025-03-11T17:15:07.760+0530","caller":"jobmanager/sse_setup.go:109","msg":"2025-03-11T17:07:01+05:30    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2025-03-11T17:15:07.761+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-03-11T17:15:07.761+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T17:15:07.761+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-03-11T17:15:07.761+0530","caller":"core/lifecycle.go:881","msg":"2025-03-11T17:07:01+05:30    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2025-03-11T17:15:07.761+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=4058cb12-036b-407f-914b-2c873a5d77f2\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T17:15:07.761+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T17:15:07.761+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-03-11T17:15:08.479+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"info","time":"2025-03-11T17:15:08.479+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[91m6m26s\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:15:08.479+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    7m57s"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          8"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             14m33s"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         16"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           50.00%"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         \u001b[91m50.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           50.00%"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         \u001b[91m50.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-03-11T17:15:08.480+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-03-11T17:15:37.763+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-03-11T17:15:37.763+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Job aborted."}
+{"level":"warn","time":"2025-03-11T18:24:45.145+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T18:24:45.145+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T18:24:45.853+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T18:24:46.499+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T18:24:46.501+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T18:24:46.501+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T18:24:49.172+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T18:24:49.172+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T18:24:49.172+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:24:49.172+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:24:49.173+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T18:24:49.903+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:24:50.574+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:541","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:595","msg":"Parallelism:    \u001b[36m Linux - 2 Windows - 2  Default - 2\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:24:50.575+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T18:24:50.575+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:24:50.575+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T18:24:51.395+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 13.94 % of your limit. Free trial mins left - 258.19\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T18:24:51.395+0530","caller":"core/lifecycle.go:512","msg":"Job ID: cd9b9d90-3649-4879-a6a1-7de72ccf2df8"}
+{"level":"debug","time":"2025-03-11T18:24:51.395+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T18:24:51.395+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T18:24:51.396+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T18:24:51.396+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:24:51.410+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 8.12 kB"}
+{"level":"debug","time":"2025-03-11T18:24:51.410+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-cd9b9d90-3649-4879-a6a1-7de72ccf2df8.zip\n"}
+{"level":"debug","time":"2025-03-11T18:24:51.410+0530","caller":"storage/azure.go:59","msg":"Payload size: 8.12 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-cd9b9d90-3649-4879-a6a1-7de72ccf2df8.zip"}
+{"level":"debug","time":"2025-03-11T18:24:51.583+0530","caller":"storage/azure.go:59","msg":"Payload size: 109.76 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T18:24:52.469+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:25:01.726+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.315658709s"}
+{"level":"debug","time":"2025-03-11T18:25:01.726+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T18:25:01.726+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T18:25:01.727+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:25:01.727+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.23 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T18:25:09.750+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.167397875s"}
+{"level":"info","time":"2025-03-11T18:25:17.794+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.067037833s"}
+{"level":"debug","time":"2025-03-11T18:25:17.794+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-cd9b9d90-3649-4879-a6a1-7de72ccf2df8.zip\n"}
+{"level":"debug","time":"2025-03-11T18:25:17.795+0530","caller":"storage/azure.go:59","msg":"Payload size: 940 B, source path mask-cd9b9d90-3649-4879-a6a1-7de72ccf2df8.yaml"}
+{"level":"info","time":"2025-03-11T18:25:27.850+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.055714625s"}
+{"level":"debug","time":"2025-03-11T18:25:30.043+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: d50c6687-dc72-4336-92f3-d43bc0777b56"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: d50c6687-dc72-4336-92f3-d43bc0777b56"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: bdb2ef9a-3dd4-41e3-ba8e-642ae931ba06"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: bdb2ef9a-3dd4-41e3-ba8e-642ae931ba06"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: bcec3c96-42a9-413e-a00b-19da8a8ea504"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: bcec3c96-42a9-413e-a00b-19da8a8ea504"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: b5f714f5-9123-4ae0-a62f-e1845014f964"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: b5f714f5-9123-4ae0-a62f-e1845014f964"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: da3e6691-e7e7-4b01-84e5-238fb81f9dc7"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: da3e6691-e7e7-4b01-84e5-238fb81f9dc7"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 90a595b2-8a67-4f2e-9032-1191fc41859f"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 90a595b2-8a67-4f2e-9032-1191fc41859f"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 99452883-4a80-4d0e-8163-cf9ea2986238"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 99452883-4a80-4d0e-8163-cf9ea2986238"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 251450a6-b6e2-4e8e-b2e4-f4c36896b656"}
+{"level":"debug","time":"2025-03-11T18:25:30.044+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 251450a6-b6e2-4e8e-b2e4-f4c36896b656"}
+{"level":"info","time":"2025-03-11T18:25:31.140+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:25:31.281+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:25:31.746+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4mcd9b9d90-3649-4879-a6a1-7de72ccf2df8\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:25:31.746+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cd9b9d90-3649-4879-a6a1-7de72ccf2df8\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T18:25:39.170+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:25:39.410+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:25:40.027+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:25:40.245+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:16.900+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m36s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:17.182+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:17.921+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m38s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:18.201+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:20.785+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:21.892+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:27.267+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (7s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:27.455+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:33.294+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (12s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:27:33.437+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:29:14.745+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:29:16.429+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T18:30:56.515+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:30:57.808+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T18:32:37.811+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:32:39.435+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:32:57.236+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [4]  \u001b[2mtests/test_demoqa_hyperexecute.py (5m23s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:33:07.861+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [3]  \u001b[2mtests/test_demoqa_hyperexecute.py (5m39s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:34:48.887+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:34:50.200+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T18:36:30.242+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:36:31.499+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:38:06.191+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [4] \u001b[2m {retry 1}\u001b[22m \u001b[2mtests/test_demoqa_hyperexecute.py (5m9s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:09.583+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:11.493+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [3] \u001b[2m {retry 1}\u001b[22m \u001b[2mtests/test_demoqa_hyperexecute.py (5m4s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:14.938+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:23.918+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (15s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:24.116+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:24.145+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:38:24.562+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"error","time":"2025-03-11T18:38:28.682+0530","caller":"jobmanager/sse_setup.go:109","msg":"2025-03-11T18:24:45+05:30    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2025-03-11T18:38:28.682+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-03-11T18:38:28.682+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T18:38:28.682+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-03-11T18:38:28.682+0530","caller":"core/lifecycle.go:881","msg":"2025-03-11T18:24:45+05:30    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2025-03-11T18:38:28.683+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cd9b9d90-3649-4879-a6a1-7de72ccf2df8\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T18:38:28.683+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T18:38:28.683+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[91m12m1s\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    13m35s"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          8"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             25m50s"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         24"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           33.33%"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         \u001b[91m66.67%\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           33.33%"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         \u001b[91m66.67%\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-03-11T18:38:29.317+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-03-11T18:38:58.683+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Job aborted."}
+{"level":"debug","time":"2025-03-11T18:38:58.683+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2025-03-11T18:39:02.350+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T18:39:02.350+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T18:39:03.055+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T18:39:03.743+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T18:39:03.745+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T18:39:03.745+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T18:39:06.405+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T18:39:06.406+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T18:39:06.406+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:39:06.406+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:39:06.407+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T18:39:07.124+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:39:08.265+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:541","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:595","msg":"Parallelism:    \u001b[36m Linux - 4 Windows - 4  Default - 4\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:08.265+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T18:39:08.265+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:39:08.265+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T18:39:09.220+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 22.46 % of your limit. Free trial mins left - 232.61\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T18:39:09.220+0530","caller":"core/lifecycle.go:512","msg":"Job ID: 2face9c7-5191-40e2-90fa-7cd7eb2f409f"}
+{"level":"debug","time":"2025-03-11T18:39:09.220+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T18:39:09.220+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T18:39:09.222+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T18:39:09.222+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:39:09.235+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 8.12 kB"}
+{"level":"debug","time":"2025-03-11T18:39:09.236+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-2face9c7-5191-40e2-90fa-7cd7eb2f409f.zip\n"}
+{"level":"debug","time":"2025-03-11T18:39:09.236+0530","caller":"storage/azure.go:59","msg":"Payload size: 8.12 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-2face9c7-5191-40e2-90fa-7cd7eb2f409f.zip"}
+{"level":"debug","time":"2025-03-11T18:39:09.387+0530","caller":"storage/azure.go:59","msg":"Payload size: 136.68 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T18:39:10.203+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:39:19.549+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.312763375s"}
+{"level":"debug","time":"2025-03-11T18:39:19.549+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T18:39:19.549+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T18:39:19.550+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:39:19.550+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.23 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T18:39:27.580+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.192944792s"}
+{"level":"info","time":"2025-03-11T18:39:35.616+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.066342542s"}
+{"level":"debug","time":"2025-03-11T18:39:35.616+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-2face9c7-5191-40e2-90fa-7cd7eb2f409f.zip\n"}
+{"level":"debug","time":"2025-03-11T18:39:35.617+0530","caller":"storage/azure.go:59","msg":"Payload size: 940 B, source path mask-2face9c7-5191-40e2-90fa-7cd7eb2f409f.yaml"}
+{"level":"info","time":"2025-03-11T18:39:45.670+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.053313834s"}
+{"level":"debug","time":"2025-03-11T18:39:48.017+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 27d4a222-ecc5-46e1-9193-b84cbea2ae3b"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 27d4a222-ecc5-46e1-9193-b84cbea2ae3b"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 5e389e7e-31e8-40d0-80f6-d52a3b3f707b"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 5e389e7e-31e8-40d0-80f6-d52a3b3f707b"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 6871b33a-dc9d-4e39-a149-5a6a379d7695"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 6871b33a-dc9d-4e39-a149-5a6a379d7695"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 8dade1c9-4504-4e99-9eb8-875c4b3a0d01"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 8dade1c9-4504-4e99-9eb8-875c4b3a0d01"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: f203dcfa-9134-4b88-92aa-b53fa6d50d32"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: f203dcfa-9134-4b88-92aa-b53fa6d50d32"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 7e2faf4a-5221-48fe-ae4f-8c72c392ffac"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 7e2faf4a-5221-48fe-ae4f-8c72c392ffac"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 046f0b7d-013d-44e7-b941-11a23dde22ab"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 046f0b7d-013d-44e7-b941-11a23dde22ab"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: d123540d-1600-4dd4-9977-b735a977d7c0"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: d123540d-1600-4dd4-9977-b735a977d7c0"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 9ecfe708-191c-4d37-8e44-def83c5a899a"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 9ecfe708-191c-4d37-8e44-def83c5a899a"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: c5342b1f-96b0-4330-b982-019f55bc1296"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: c5342b1f-96b0-4330-b982-019f55bc1296"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 0e444036-d9a9-4f50-a753-407ce44b26fd"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 0e444036-d9a9-4f50-a753-407ce44b26fd"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 2a993a68-43dd-406e-ae12-bb98fa6bf7f6"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 2a993a68-43dd-406e-ae12-bb98fa6bf7f6"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 04dc5577-3264-42af-8511-40521f7b78f2"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 04dc5577-3264-42af-8511-40521f7b78f2"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 28b1a17f-af61-4dd4-bfe9-1ca0cf19c3f6"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 28b1a17f-af61-4dd4-bfe9-1ca0cf19c3f6"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: f26ada5e-184a-404e-ac5f-26df14938b70"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: f26ada5e-184a-404e-ac5f-26df14938b70"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 7a715550-bf84-4d8e-abad-eeda1c00fd85"}
+{"level":"debug","time":"2025-03-11T18:39:48.018+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 7a715550-bf84-4d8e-abad-eeda1c00fd85"}
+{"level":"info","time":"2025-03-11T18:39:49.039+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:39:49.039+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:39:49.583+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m2face9c7-5191-40e2-90fa-7cd7eb2f409f\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:39:49.584+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2face9c7-5191-40e2-90fa-7cd7eb2f409f\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T18:40:11.940+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (23s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:40:12.212+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (23s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:40:12.320+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:40:12.437+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:41:58.488+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:41:59.830+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:42:13.330+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m55s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:42:23.378+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (2m5s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:30.298+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2] \u001b[2m {retry 1}\u001b[22m \u001b[2mtests/test_demoqa_hyperexecute.py (1m17s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:33.889+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1] \u001b[2m {retry 1}\u001b[22m \u001b[2mtests/test_demoqa_hyperexecute.py (1m11s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:33.890+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:34.166+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:43:37.018+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-11T18:43:37.688+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:43:38.604+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:43:52.945+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (16s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:52.953+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (20s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:53.269+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:53.296+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:54.963+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:55.189+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:58.636+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:43:58.730+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:44:02.604+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (4s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:44:02.753+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (5s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:44:02.779+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:44:02.884+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:45:44.106+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:45:45.727+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T18:47:25.827+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:47:27.190+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:49:06.521+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [6]  \u001b[2mtests/test_demoqa_hyperexecute.py (5m3s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:49:19.289+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [5]  \u001b[2mtests/test_demoqa_hyperexecute.py (5m16s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:50:59.642+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T18:51:01.132+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"error","time":"2025-03-11T18:52:14.855+0530","caller":"jobmanager/sse_setup.go:109","msg":"2025-03-11T18:39:02+05:30    error    \u001b[91mERR::JOB::STS\u001b[0m     Job aborted!"}
+{"level":"debug","time":"2025-03-11T18:52:14.855+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-03-11T18:52:14.855+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T18:52:14.855+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-03-11T18:52:14.855+0530","caller":"core/lifecycle.go:881","msg":"2025-03-11T18:39:02+05:30    error    Exiting with error: Job aborted."}
+{"level":"info","time":"2025-03-11T18:52:14.855+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=2face9c7-5191-40e2-90fa-7cd7eb2f409f\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T18:52:14.855+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T18:52:14.856+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[101m ABORTED \u001b[0m\n"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[91m11m24s\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    13m3s"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          16"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             24m46s"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         22"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           25.00%"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         \u001b[91m75.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           50.00%"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         \u001b[91m50.00%\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-03-11T18:52:15.523+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-03-11T18:52:44.857+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Job aborted."}
+{"level":"debug","time":"2025-03-11T18:52:44.857+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2025-03-11T18:55:40.697+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T18:55:40.698+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T18:55:41.352+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T18:55:42.017+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"warn","time":"2025-03-11T18:55:42.019+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-03-11T18:55:42.019+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-03-11T18:55:44.517+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T18:55:44.517+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T18:55:44.517+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:55:44.517+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:55:44.518+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T18:55:45.234+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:55:45.901+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:541","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:595","msg":"Parallelism:    \u001b[36m Linux - 4 Windows - 4  Default - 4\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:55:45.901+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T18:55:45.901+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:55:45.902+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T18:55:46.693+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 27.98 % of your limit. Free trial mins left - 216.05\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T18:55:46.693+0530","caller":"core/lifecycle.go:512","msg":"Job ID: b01cc08f-f3ce-4eba-8738-ba229a402fc0"}
+{"level":"debug","time":"2025-03-11T18:55:46.693+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T18:55:46.693+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T18:55:46.694+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T18:55:46.694+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:55:46.706+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 8.09 kB"}
+{"level":"debug","time":"2025-03-11T18:55:46.706+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-b01cc08f-f3ce-4eba-8738-ba229a402fc0.zip\n"}
+{"level":"debug","time":"2025-03-11T18:55:46.707+0530","caller":"storage/azure.go:59","msg":"Payload size: 8.09 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-b01cc08f-f3ce-4eba-8738-ba229a402fc0.zip"}
+{"level":"debug","time":"2025-03-11T18:55:46.904+0530","caller":"storage/azure.go:59","msg":"Payload size: 164.56 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T18:55:47.745+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:55:57.034+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.327943042s"}
+{"level":"debug","time":"2025-03-11T18:55:57.035+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T18:55:57.035+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T18:55:57.035+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:55:57.035+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.19 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T18:56:05.057+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.152966292s"}
+{"level":"info","time":"2025-03-11T18:56:13.079+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.043382s"}
+{"level":"debug","time":"2025-03-11T18:56:13.079+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-b01cc08f-f3ce-4eba-8738-ba229a402fc0.zip\n"}
+{"level":"debug","time":"2025-03-11T18:56:13.080+0530","caller":"storage/azure.go:59","msg":"Payload size: 903 B, source path mask-b01cc08f-f3ce-4eba-8738-ba229a402fc0.yaml"}
+{"level":"info","time":"2025-03-11T18:56:23.218+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.138614542s"}
+{"level":"debug","time":"2025-03-11T18:56:25.485+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 143dac77-0da9-4551-852a-9317f45d1669"}
+{"level":"debug","time":"2025-03-11T18:56:25.485+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 143dac77-0da9-4551-852a-9317f45d1669"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: ea65d4c6-ce55-4ff2-a4fb-6fb232427452"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: ea65d4c6-ce55-4ff2-a4fb-6fb232427452"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 9e083978-68e7-4fbb-8291-f6ac731076e7"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 9e083978-68e7-4fbb-8291-f6ac731076e7"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: f61ac455-e90c-4c0a-9d92-a36aac81ffbc"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: f61ac455-e90c-4c0a-9d92-a36aac81ffbc"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: a8ca1d07-44ae-46be-b9e6-0f512c35a940"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: a8ca1d07-44ae-46be-b9e6-0f512c35a940"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 181a6066-a7cf-4b44-a179-2c516b761333"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 181a6066-a7cf-4b44-a179-2c516b761333"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: a641d420-7d54-4708-a6f4-97e54eab02ba"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: a641d420-7d54-4708-a6f4-97e54eab02ba"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: d4b7f3b1-c575-4d37-8ef9-015a0a08abd6"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: d4b7f3b1-c575-4d37-8ef9-015a0a08abd6"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 18039363-9741-4ce3-ba56-3f74ba8b93fa"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 18039363-9741-4ce3-ba56-3f74ba8b93fa"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 913e7da2-e052-4c92-b672-686dd6aa3d85"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 913e7da2-e052-4c92-b672-686dd6aa3d85"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 143ecc7a-4f24-48bf-a90e-a26362c5a2bc"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 143ecc7a-4f24-48bf-a90e-a26362c5a2bc"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 7f91e311-b900-4d41-bfd7-2a492018032a"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 7f91e311-b900-4d41-bfd7-2a492018032a"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: ea6418fa-ef0b-4fe0-9921-0012372aeb6e"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: ea6418fa-ef0b-4fe0-9921-0012372aeb6e"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 5f9991dc-95e2-4e81-8614-c3c5759b4a07"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 5f9991dc-95e2-4e81-8614-c3c5759b4a07"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 698cd66e-4b7d-4420-bba7-c779390c1966"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 698cd66e-4b7d-4420-bba7-c779390c1966"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 8e86eed1-66d3-4d6e-bb2d-ace21192c692"}
+{"level":"debug","time":"2025-03-11T18:56:25.486+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 8e86eed1-66d3-4d6e-bb2d-ace21192c692"}
+{"level":"info","time":"2025-03-11T18:56:27.088+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:56:27.166+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:56:27.668+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4mb01cc08f-f3ce-4eba-8738-ba229a402fc0\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:56:27.668+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b01cc08f-f3ce-4eba-8738-ba229a402fc0\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-03-11T18:56:34.833+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:56:35.046+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:56:40.297+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (13s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:56:40.577+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T18:57:54.912+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T18:57:55.583+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"debug","time":"2025-03-11T18:57:58.086+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T18:57:58.087+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T18:57:58.087+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:57:58.087+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:57:58.088+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T18:57:58.806+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:57:59.469+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T18:57:59.469+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:541","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:595","msg":"Parallelism:    \u001b[36m Linux - 4 Windows - 4  Default - 4\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T18:57:59.470+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T18:57:59.470+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:57:59.470+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-03-11T18:58:00.315+0530","caller":"core/lifecycle.go:437","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 27.98 % of your limit. Free trial mins left - 216.05\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-03-11T18:58:00.316+0530","caller":"core/lifecycle.go:512","msg":"Job ID: e5fd3346-c11c-4cce-b247-78d0f31f6976"}
+{"level":"debug","time":"2025-03-11T18:58:00.316+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-11T18:58:00.316+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-11T18:58:00.316+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-11T18:58:00.316+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T18:58:00.323+0530","caller":"core/lifecycle.go:655","msg":"Zip file size: 7.38 kB"}
+{"level":"debug","time":"2025-03-11T18:58:00.323+0530","caller":"core/lifecycle.go:665","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-e5fd3346-c11c-4cce-b247-78d0f31f6976.zip\n"}
+{"level":"debug","time":"2025-03-11T18:58:00.323+0530","caller":"storage/azure.go:59","msg":"Payload size: 7.38 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-e5fd3346-c11c-4cce-b247-78d0f31f6976.zip"}
+{"level":"debug","time":"2025-03-11T18:58:00.519+0530","caller":"storage/azure.go:59","msg":"Payload size: 178.48 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-11T18:58:01.275+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-03-11T18:58:09.192+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m33s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:09.462+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:10.436+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.1115395s"}
+{"level":"debug","time":"2025-03-11T18:58:10.436+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-11T18:58:10.436+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-11T18:58:10.437+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T18:58:10.437+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.19 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-11T18:58:12.811+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:18.471+0530","caller":"storage/azure.go:114","msg":"File upload completed in 17.950823584s"}
+{"level":"info","time":"2025-03-11T18:58:20.523+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (8s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:20.826+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:22.381+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:25.802+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:26.494+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.056499958s"}
+{"level":"debug","time":"2025-03-11T18:58:26.494+0530","caller":"core/lifecycle.go:692","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-e5fd3346-c11c-4cce-b247-78d0f31f6976.zip\n"}
+{"level":"debug","time":"2025-03-11T18:58:26.495+0530","caller":"storage/azure.go:59","msg":"Payload size: 872 B, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/mask-e5fd3346-c11c-4cce-b247-78d0f31f6976.yaml"}
+{"level":"info","time":"2025-03-11T18:58:30.728+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m49s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:31.026+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:34.958+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:36.532+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.03764625s"}
+{"level":"debug","time":"2025-03-11T18:58:38.725+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: b0aa2d18-dd52-45d9-9d16-f9690636a905"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: b0aa2d18-dd52-45d9-9d16-f9690636a905"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: de23460e-3404-4e7b-b37a-53fc60a8f41f"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: de23460e-3404-4e7b-b37a-53fc60a8f41f"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 41936fc7-a13c-4a82-ab77-2676a0c0b4f4"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 41936fc7-a13c-4a82-ab77-2676a0c0b4f4"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 61cf110e-87eb-45ec-882f-1e4a658dec44"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 61cf110e-87eb-45ec-882f-1e4a658dec44"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 77b61a41-0cc8-4289-a7b4-1edef949b609"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 77b61a41-0cc8-4289-a7b4-1edef949b609"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 041236fe-5967-4c8d-8d45-6d8e32b01ecd"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 041236fe-5967-4c8d-8d45-6d8e32b01ecd"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 01d05b90-026b-49ee-9041-ca5e0971a284"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 01d05b90-026b-49ee-9041-ca5e0971a284"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: ad3aab84-8dec-44e0-b437-83839246ba45"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: ad3aab84-8dec-44e0-b437-83839246ba45"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 39caff18-90f1-4b65-9bd2-a38cefc7c5e4"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 39caff18-90f1-4b65-9bd2-a38cefc7c5e4"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 3851f079-209f-4f45-83dc-5ed2c5006a6e"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 3851f079-209f-4f45-83dc-5ed2c5006a6e"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 8a0f965e-acb6-4245-b583-94ecc94aad29"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 8a0f965e-acb6-4245-b583-94ecc94aad29"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: b6d6cdd3-762f-4e24-8f9b-60632b1634f4"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: b6d6cdd3-762f-4e24-8f9b-60632b1634f4"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: d8b34070-9f1d-4614-9ebe-9417fe87bff1"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: d8b34070-9f1d-4614-9ebe-9417fe87bff1"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: ac1c859d-b5fe-484f-97e4-e4c0b032b050"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: ac1c859d-b5fe-484f-97e4-e4c0b032b050"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 5833536a-3e06-469d-91de-5f9c54374846"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 5833536a-3e06-469d-91de-5f9c54374846"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: c8ade302-d012-487e-bde2-fbe1b76cd7f2"}
+{"level":"debug","time":"2025-03-11T18:58:38.726+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: c8ade302-d012-487e-bde2-fbe1b76cd7f2"}
+{"level":"info","time":"2025-03-11T18:58:41.215+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (16s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:41.512+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:43.121+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:43.862+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:44.098+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:46.608+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:55.649+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T18:58:56.001+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:00:25.789+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m40s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:00:26.091+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:00:30.561+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mtests/test_demoqa_hyperexecute.py (1m33s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:00:30.862+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:44.186+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:44.434+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:52.940+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpre (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:53.046+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpre (9s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:53.149+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:53.248+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:54.981+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:55.094+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:59.057+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:01:59.080+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:02:05.323+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mpre (6s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:02:05.509+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:02:08.857+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mpre (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-03-11T19:02:08.990+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"debug","time":"2025-03-11T19:03:50.814+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T19:03:50.830+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-11T19:03:51.551+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob \u001b[1m\u001b[4me5fd3346-c11c-4cce-b247-78d0f31f6976\u001b[24m\u001b[22m has \u001b[97mINITIATED\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:03:51.551+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e5fd3346-c11c-4cce-b247-78d0f31f6976\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T19:03:52.081+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T19:03:52.087+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-03-11T19:05:32.090+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T19:05:32.100+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-11T19:05:33.334+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:05:33.342+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:05:43.601+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:05:44.259+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:05:53.892+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:05:54.545+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:04.176+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:04.807+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:15.061+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:15.116+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:25.332+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:25.413+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:35.627+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:35.743+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:45.909+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:46.014+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:56.203+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:06:56.285+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:06.466+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:06.601+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:16.753+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:16.893+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:27.020+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:27.233+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:37.323+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:37.562+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:47.664+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:47.861+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:57.976+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:07:58.156+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:08.263+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:08.447+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:19.004+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:19.005+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:29.279+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:29.285+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:39.570+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:39.640+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:49.877+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:08:49.930+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:00.208+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:00.218+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:10.570+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:10.588+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:20.832+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:20.855+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:31.136+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:31.155+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:41.416+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:41.464+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:51.745+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:09:51.771+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:02.042+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:02.057+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:12.326+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:12.339+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:22.605+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:22.626+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:32.886+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:32.898+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:43.179+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:43.245+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:53.516+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:10:53.518+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:03.788+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:03.792+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:14.065+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:14.111+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:24.341+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:24.400+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:34.621+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:34.680+0530","caller":"events/manager.go:301","msg":"Error Connecting to hyperexecute Server: request failed: response validation failed: expected status code 200 OK, received 401 Unauthorized, Reconnecting!!!"}
+{"level":"debug","time":"2025-03-11T19:11:38.922+0530","caller":"cmd/bin.go:338","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-03-11T19:11:38.922+0530","caller":"cmd/bin.go:339","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-03-11T19:11:38.922+0530","caller":"cmd/bin.go:345","msg":"Sending request to abort job"}
+{"level":"error","time":"2025-03-11T19:11:39.896+0530","caller":"cmd/bin.go:348","msg":"2025-03-11T18:55:40+05:30    error    Unable to abort job: \u001b[91mERR::JOB::ABT\u001b[0m     Job abort failed."}
+{"level":"debug","time":"2025-03-11T19:11:39.896+0530","caller":"cmd/bin.go:354","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2025-03-11T19:11:39.896+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T19:11:39.896+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-03-11T19:11:39.896+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b01cc08f-f3ce-4eba-8738-ba229a402fc0\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T19:11:39.896+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T19:11:39.896+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T19:11:41.826+0530","caller":"cmd/bin.go:338","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-03-11T19:11:41.827+0530","caller":"cmd/bin.go:339","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-03-11T19:11:41.827+0530","caller":"cmd/bin.go:345","msg":"Sending request to abort job"}
+{"level":"error","time":"2025-03-11T19:11:42.852+0530","caller":"cmd/bin.go:348","msg":"2025-03-11T18:57:54+05:30    error    Unable to abort job: \u001b[91mERR::JOB::ABT\u001b[0m     Job abort failed."}
+{"level":"debug","time":"2025-03-11T19:11:42.852+0530","caller":"cmd/bin.go:354","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2025-03-11T19:11:42.852+0530","caller":"core/lifecycle.go:875","msg":"Context canceled"}
+{"level":"info","time":"2025-03-11T19:11:42.852+0530","caller":"core/lifecycle.go:878","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-03-11T19:11:42.852+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e5fd3346-c11c-4cce-b247-78d0f31f6976\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-11T19:11:42.852+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T19:11:42.852+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"error","time":"2025-03-11T19:12:39.898+0530","caller":"cmd/bin.go:361","msg":"2025-03-11T18:55:40+05:30    error    \u001b[91mERR::TIME::OUT\u001b[0m     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
+{"level":"error","time":"2025-03-11T19:12:42.854+0530","caller":"cmd/bin.go:361","msg":"2025-03-11T18:57:54+05:30    error    \u001b[91mERR::TIME::OUT\u001b[0m     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
+{"level":"debug","time":"2025-03-11T19:14:58.941+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T19:14:59.646+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"debug","time":"2025-03-11T19:15:02.192+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T19:15:02.192+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T19:15:02.192+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T19:15:02.192+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T19:15:02.193+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T19:15:02.930+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"error","time":"2025-03-11T19:15:03.630+0530","caller":"core/lifecycle.go:115","msg":"2025-03-11T19:14:58+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T19:15:03.630+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T19:15:03.630+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T19:15:03.630+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T19:15:03.630+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Cannot infer individual parallelism,either provide global parallelism or at least one of win_parallelism, linux_parallelism,  mac_parallelism!!"}
+{"level":"debug","time":"2025-03-11T19:15:35.056+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-11T19:15:35.711+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.259} "}
+{"level":"debug","time":"2025-03-11T19:15:37.583+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-11T19:15:37.583+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-11T19:15:37.583+0530","caller":"yamlconfigmanager/setup.go:693","msg":"Custom location for .hyperexecute.yaml specified. Using: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T19:15:37.584+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T19:15:37.584+0530","caller":"yamlconfigmanager/setup.go:1784","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-11T19:15:38.329+0530","caller":"yamlconfigmanager/setup.go:2012","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-11T19:15:39.012+0530","caller":"yamlconfigmanager/setup.go:517","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:541","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:595","msg":"Parallelism:    \u001b[36m Linux - 1 Windows - 1  Default - 1\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:689","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:692","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:707","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:709","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-11T19:15:39.012+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-03-11T19:15:39.012+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-11T19:15:39.012+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"error","time":"2025-03-11T19:15:39.680+0530","caller":"receptionmanager/setup.go:105","msg":"2025-03-11T19:15:34+05:30    error    \u001b[91mERR::JSON::UN_MAR\u001b[0m     Unable to unmarshal. json: cannot unmarshal string into Go value of type models.ReceptionResponse    Unable to parse job upload link response."}
+{"level":"error","time":"2025-03-11T19:15:39.680+0530","caller":"core/lifecycle.go:399","msg":"2025-03-11T19:15:34+05:30    error    \u001b[91mERR::JSON::UN_MAR\u001b[0m     Unable to unmarshal. json: cannot unmarshal string into Go value of type models.ReceptionResponse - Unable to get job upload link."}
+{"level":"debug","time":"2025-03-11T19:15:39.680+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-11T19:15:39.680+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-11T19:15:39.680+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-11T19:15:39.680+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::JSON::UN_MAR\u001b[0m     Unable to unmarshal. json: cannot unmarshal string into Go value of type models.ReceptionResponse"}

@@ -11,15 +11,12 @@ captureScreenRecordingForScenarios: false
 codeDirectory: myhyper-execute-demo
 collectLocalGitData: true
 combineTasksInMatrixMode: false
-concurrency: 1
 cypress: false
 differentialUpload:
     enabled: false
     forcedDisabled: false
     ttlHours: null
 dynamicAllocation: false
-env:
-    TARGET_OS: Windows 11
 errorCategorizedOnFailureOnly: false
 framework:
     additional_args: null
@@ -90,17 +87,26 @@ globalPre:
     shell: ""
     workingDirectory: ""
 globalTimeout: 90
-jobID: 0d2832ed-5c70-4797-839b-8f9addd3658d
+jobID: e5fd3346-c11c-4cce-b247-78d0f31f6976
 jobLabel:
     - selenium-pyunit
-    - win
     - autosplit
 key: LT_vNlHDWl1n7Rb5PJQJXPmCXJltrBUQJaMpjH3v1L2XFNHBY4
+linuxParallelism: 4
+linuxTestRunnerCommand: python3 $test
 localHTTPProxy: ""
+matrix:
+    browser:
+        - chrome
+        - firefox
+    os:
+        - win
+        - linux
 maxRetries: 1
 maxRetriesPreSteps: 0
 mergeArtifacts: true
 meta: {}
+parallelism: 4
 partialReports:
     type: json
     location: /
@@ -141,7 +147,7 @@ regionConfig:
     vm: []
 report: true
 retryOnFailure: true
-runson: win
+runson: ${matrix.os}
 slackChannel: ""
 sourcePayload:
     verifySSL: true
@@ -149,8 +155,10 @@ storageType: ""
 testDiscovery:
     autosubset: true
     command: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
+    linuxCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
     mode: dynamic
     type: raw
+    winCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
 testDiscoveryResultV3: []
 testRunnerCommand: python3 $test
 testSuiteStep: 90
@@ -172,3 +180,5 @@ user: rohanreddy
 version: "0.1"
 waitForArtefactsUpload: false
 whiteLabelProductTag: ""
+winParallelism: 4
+winTestRunnerCommand: python3 $test
