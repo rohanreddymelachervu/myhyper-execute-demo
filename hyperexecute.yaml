@@ -3,16 +3,19 @@ version: 0.1
 globalTimeout: 90
 testSuiteTimeout: 90
 testSuiteStep: 90
-
+differentialUpload:
+  enabled: true
+  ttlHours: 60
 runson: ${matrix.os}
 matrix:
   os: ["win", "linux"]
   browser: [chrome, firefox]
 
-parallelism: 1
+parallelism: 3
 
  
-
+project:
+  name: testing
 
 autosplit: true
 retryOnFailure: true
@@ -22,8 +25,8 @@ maxRetries: 1
 # combineTasksInMatrixMode: true
 
 env:
-#  PAT: ${{ .secrets.testKey }}
-#  TARGET_OS: Windows 11
+  TESTING_DELETE_LATER: ${{ .secrets.TESTING_DELETE_LATER }}
+ 
 
 cacheKey: '{{ checksum "requirements.txt" }}'
 cacheDirectories:
@@ -51,6 +54,6 @@ testDiscovery:
   mode: dynamic
   command: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
 
-testRunnerCommand: python3 $test
+testRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
 
 jobLabel: [selenium-pyunit, autosplit]

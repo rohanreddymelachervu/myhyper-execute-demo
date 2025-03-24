@@ -1,0 +1,48 @@
+autosplit: true
+cacheDirectories:
+    - CacheDir
+cacheKey: '{{ checksum "requirements.txt" }}'
+differentialUpload:
+    enabled: true
+    ttlHours: 60
+globalTimeout: 90
+jobLabel:
+    - selenium-pyunit
+    - autosplit
+linuxParallelism: 2
+matrix:
+    browser:
+        - chrome
+        - firefox
+    os:
+        - win
+        - linux
+maxRetries: 1
+mergeArtifacts: true
+parallelism: 2
+partialReports:
+    frameworkName: extent
+    location: /
+    type: json
+post:
+    - cat yaml/win/pyunit_hyperexecute_autosplit_sample.yaml
+pre:
+    - pip3 install -r requirements.txt --cache-dir CacheDir
+project:
+    name: testing
+report: true
+retryOnFailure: true
+runson: ${matrix.os}
+testDiscovery:
+    command: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
+    mode: dynamic
+    type: raw
+testRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
+testSuiteStep: 90
+testSuiteTimeout: 90
+uploadArtefacts:
+    - name: TestReport
+      path:
+        - example_report/**/*
+version: 0.1
+winParallelism: 1

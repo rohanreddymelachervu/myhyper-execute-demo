@@ -1,6 +1,0 @@
-This is an automatically generated artifact file.
-Test Output:
-Name:John Doe
-Email:john.doe@example.com
-Current Address :123 Main St, City, Country
-Permananet Address :456 Secondary St, City, Country

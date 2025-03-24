@@ -13,10 +13,12 @@ collectLocalGitData: true
 combineTasksInMatrixMode: false
 cypress: false
 differentialUpload:
-    enabled: false
+    enabled: true
     forcedDisabled: false
-    ttlHours: null
+    ttlHours: 60
 dynamicAllocation: false
+env:
+    TESTING_DELETE_LATER: ${{ .secrets.TESTING_DELETE_LATER }}
 errorCategorizedOnFailureOnly: false
 framework:
     additional_args: null
@@ -25,6 +27,7 @@ framework:
         appPath: ""
         artifacts: false
         avoidAppLaunch: false
+        customData: {}
         deviceSelectionStrategy: ""
         devices: []
         disableReleaseDevice: false
@@ -81,19 +84,21 @@ globalPre:
     cache: false
     commands: []
     completed: false
+    location: ""
     maxRetries: 0
     mode: ""
     runson: ""
     shell: ""
+    type: ""
     workingDirectory: ""
 globalTimeout: 90
-jobID: e5fd3346-c11c-4cce-b247-78d0f31f6976
+jobID: 0599d941-10f9-423e-961c-15a78807d636
 jobLabel:
     - selenium-pyunit
     - autosplit
-key: LT_vNlHDWl1n7Rb5PJQJXPmCXJltrBUQJaMpjH3v1L2XFNHBY4
-linuxParallelism: 4
-linuxTestRunnerCommand: python3 $test
+key: cHBC1OyI5dRHq75Uk9CjVDiUYaAG4aGzYDWq3e41JayXKdmVx6
+linuxParallelism: 3
+linuxTestRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
 localHTTPProxy: ""
 matrix:
     browser:
@@ -106,7 +111,7 @@ maxRetries: 1
 maxRetriesPreSteps: 0
 mergeArtifacts: true
 meta: {}
-parallelism: 4
+parallelism: 3
 partialReports:
     type: json
     location: /
@@ -134,8 +139,8 @@ preDirectives:
     shell: ""
     workingDirectory: ""
 project:
-    id: ""
-    name: ""
+    id: 01JP54DQW0MWYE5D9Y6HJPPXYK
+    name: testing
     type: default
 projectpath: ""
 regionConfig:
@@ -160,7 +165,7 @@ testDiscovery:
     type: raw
     winCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
 testDiscoveryResultV3: []
-testRunnerCommand: python3 $test
+testRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
 testSuiteStep: 90
 testSuiteTimeout: 90
 testSuites: []
@@ -176,9 +181,9 @@ uploadArtefacts:
       name: TestReport
       path:
         - example_report/**/*
-user: rohanreddy
+user: hypautomationuser
 version: "0.1"
 waitForArtefactsUpload: false
 whiteLabelProductTag: ""
-winParallelism: 4
-winTestRunnerCommand: python3 $test
+winParallelism: 3
+winTestRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}

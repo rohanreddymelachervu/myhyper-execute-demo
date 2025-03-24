@@ -1,0 +1,6 @@
+This is an automatically generated artifact from Test Three (Check Box Test).
+Output:
+You have selected :
+downloads
+wordFile
+excelFile
