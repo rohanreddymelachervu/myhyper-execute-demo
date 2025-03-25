@@ -11,7 +11,7 @@ matrix:
   os: ["win", "linux"]
   browser: [chrome, firefox]
 
-parallelism: 6
+parallelism: 5
 
  
 project:
