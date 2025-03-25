@@ -24,8 +24,8 @@ maxRetries: 1
 # concurrency: 2
 # combineTasksInMatrixMode: true
 
-env:
-  TESTING_DELETE_LATER: ${{ .secrets.TESTING_DELETE_LATER }}
+# env:
+#   TESTING_DELETE_LATER: ${{ .secrets.TESTING_DELETE_LATER }}
  
 
 cacheKey: '{{ checksum "requirements.txt" }}'
