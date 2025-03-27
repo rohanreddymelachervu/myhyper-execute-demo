@@ -8,14 +8,14 @@ differentialUpload:
   ttlHours: 60
 runson: ${matrix.os}
 matrix:
-  os: ["win", "linux"]
+  os: ["win"]
   browser: [chrome, firefox]
 
 parallelism: 4
 
  
 project:
-  name: testing
+  name: testing-HYP-13671
 
 autosplit: true
 retryOnFailure: true
