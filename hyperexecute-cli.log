@@ -6617,3 +6617,8 @@
 {"level":"info","time":"2025-03-24T11:30:24.601+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
 {"level":"info","time":"2025-03-24T11:30:24.601+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
 {"level":"debug","time":"2025-03-24T11:30:54.313+0530","caller":"cmd/bin.go:346","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-03-27T13:00:54.993+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T13:00:55.285+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.531} "}
+{"level":"info","time":"2025-03-27T13:00:55.285+0530","caller":"cmd/bin.go:154","msg":"Current binary version 0.2.528 is less than max upstream version 0.2.531."}
+{"level":"info","time":"2025-03-27T13:00:55.285+0530","caller":"updater/updater.go:63","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-03-27T13:00:55.285+0530","caller":"updater/updater.go:64","msg":"Download url: https://stage-downloads.hyperexecute.cloud/hyperexecute/cli/0.2.531/darwin/hyperexecute"}

@@ -11,7 +11,7 @@ matrix:
   os: ["win", "linux"]
   browser: [chrome, firefox]
 
-parallelism: 6
+parallelism: 4
 
  
 project:
@@ -24,8 +24,8 @@ maxRetries: 1
 # concurrency: 2
 # combineTasksInMatrixMode: true
 
-# env:
-#   TESTING_DELETE_LATER: ${{ .secrets.TESTING_DELETE_LATER }}
+env:
+  TESTING_DELETE_LATER: ${{ .secrets.test-secret-HYP-13671 }}
  
 
 cacheKey: '{{ checksum "requirements.txt" }}'
