@@ -6622,3 +6622,31 @@
 {"level":"info","time":"2025-03-27T13:00:55.285+0530","caller":"cmd/bin.go:154","msg":"Current binary version 0.2.528 is less than max upstream version 0.2.531."}
 {"level":"info","time":"2025-03-27T13:00:55.285+0530","caller":"updater/updater.go:63","msg":"Auto updating binary ..................."}
 {"level":"debug","time":"2025-03-27T13:00:55.285+0530","caller":"updater/updater.go:64","msg":"Download url: https://stage-downloads.hyperexecute.cloud/hyperexecute/cli/0.2.531/darwin/hyperexecute"}
+{"level":"debug","time":"2025-03-27T18:27:21.676+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T18:27:22.589+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-27T18:27:25.693+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-27T18:27:25.694+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-27T18:27:25.694+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T18:27:25.695+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T18:27:25.697+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T18:27:25.697+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T18:27:25.697+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-27T18:27:26.527+0530","caller":"core/lifecycle.go:115","msg":"2025-03-27T18:27:20+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key test-secret-HYP-13671 not found in vault"}
+{"level":"debug","time":"2025-03-27T18:27:26.528+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-27T18:27:26.528+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-27T18:27:26.528+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-27T18:27:26.528+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key test-secret-HYP-13671 not found in vault"}
+{"level":"debug","time":"2025-03-27T18:27:36.799+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T18:27:37.604+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-27T18:27:39.975+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-27T18:27:39.975+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-27T18:27:39.976+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T18:27:39.976+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T18:27:39.977+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T18:27:39.977+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T18:27:39.977+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-27T18:27:40.840+0530","caller":"core/lifecycle.go:115","msg":"2025-03-27T18:27:35+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key test-secret-HYP-13671 not found in vault"}
+{"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key test-secret-HYP-13671 not found in vault"}

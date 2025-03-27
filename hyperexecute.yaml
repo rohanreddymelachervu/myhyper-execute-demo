@@ -25,7 +25,7 @@ maxRetries: 1
 # combineTasksInMatrixMode: true
 
 env:
-  TESTING_DELETE_LATER: ${{ .secrets.test-secret-HYP-13671 }}
+  TESTING_DELETE_LATER: ${{ .secrets.HYP-13671-secret }}
  
 
 cacheKey: '{{ checksum "requirements.txt" }}'
