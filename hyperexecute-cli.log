@@ -6650,3 +6650,307 @@
 {"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
 {"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
 {"level":"debug","time":"2025-03-27T18:27:40.841+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key test-secret-HYP-13671 not found in vault"}
+{"level":"debug","time":"2025-03-27T19:51:44.559+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T19:51:45.405+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-27T19:51:46.895+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-27T19:51:46.895+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-27T19:51:46.895+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:51:46.895+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:51:46.897+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T19:51:46.897+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T19:51:46.897+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-27T19:51:47.771+0530","caller":"core/lifecycle.go:115","msg":"2025-03-27T19:51:43+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key HYP-13671-secret not found in vault"}
+{"level":"debug","time":"2025-03-27T19:51:47.771+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-27T19:51:47.771+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-27T19:51:47.771+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-27T19:51:47.771+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key HYP-13671-secret not found in vault"}
+{"level":"debug","time":"2025-03-27T19:52:29.697+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T19:52:30.464+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-27T19:52:32.052+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-27T19:52:32.053+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-27T19:52:32.054+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:52:32.054+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:52:32.055+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T19:52:32.055+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T19:52:32.055+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T19:52:32.973+0530","caller":"yamlconfigmanager/setup.go:2025","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"warn","time":"2025-03-27T19:52:33.758+0530","caller":"yamlconfigmanager/setup.go:1721","msg":"Error while fetching supported OS versions from KV: \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 404    Failed to fetch platform supported OS"}
+{"level":"debug","time":"2025-03-27T19:52:33.758+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-27T19:52:33.758+0530","caller":"models/HypertestYamlConfig.go:850","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:649","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Parallelism:    \u001b[36m Windows - 4  Default - 4\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:711","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:783","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:797","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:800","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:815","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:817","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:52:33.760+0530","caller":"models/HypertestYamlConfig.go:863","msg":""}
+{"level":"debug","time":"2025-03-27T19:52:33.760+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:52:33.760+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-03-27T19:52:36.454+0530","caller":"core/lifecycle.go:506","msg":"Job ID: ef236e19-8b02-4906-98c3-b95555632a91"}
+{"level":"debug","time":"2025-03-27T19:52:36.454+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-27T19:52:36.455+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-27T19:52:36.457+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-27T19:52:36.457+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-27T19:52:36.482+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:52:36.487+0530","caller":"core/lifecycle.go:649","msg":"Zip file size: 16.25 kB"}
+{"level":"debug","time":"2025-03-27T19:52:36.488+0530","caller":"core/lifecycle.go:659","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-ef236e19-8b02-4906-98c3-b95555632a91.zip\n"}
+{"level":"debug","time":"2025-03-27T19:52:36.488+0530","caller":"storage/azure.go:59","msg":"Payload size: 16.25 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-ef236e19-8b02-4906-98c3-b95555632a91.zip"}
+{"level":"debug","time":"2025-03-27T19:52:36.631+0530","caller":"storage/azure.go:59","msg":"Payload size: 8.63 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-27T19:52:37.131+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:52:38.222+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:52:39.327+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:52:40.922+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:52:43.043+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:52:46.406+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-27T19:52:47.064+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.575661208s"}
+{"level":"debug","time":"2025-03-27T19:52:47.064+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-27T19:52:47.065+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-27T19:52:47.066+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:52:47.066+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.27 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T19:52:52.447+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-27T19:52:55.102+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.471310333s"}
+{"level":"debug","time":"2025-03-27T19:52:56.985+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-27T19:53:03.181+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.116089417s"}
+{"level":"debug","time":"2025-03-27T19:53:03.182+0530","caller":"core/lifecycle.go:686","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-ef236e19-8b02-4906-98c3-b95555632a91.zip\n"}
+{"level":"debug","time":"2025-03-27T19:53:03.183+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.04 kB, source path mask-ef236e19-8b02-4906-98c3-b95555632a91.yaml"}
+{"level":"debug","time":"2025-03-27T19:53:13.197+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-27T19:53:13.242+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.059228s"}
+{"level":"info","time":"2025-03-27T19:53:14.602+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob \u001b[1m\u001b[4mef236e19-8b02-4906-98c3-b95555632a91\u001b[24m\u001b[22m has \u001b[97mINITIATED\u001b[0m"}
+{"level":"info","time":"2025-03-27T19:53:14.603+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/hyperexecute/task?jobId=ef236e19-8b02-4906-98c3-b95555632a91\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-27T19:53:38.665+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:54:05.509+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:54:54.447+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:56:22.839+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T19:57:33.181+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T20:00:06.609+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T20:05:13.923+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T20:12:13.770+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T20:21:13.730+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T20:32:50.638+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T22:15:15.229+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-27T22:22:27.451+0530","caller":"cmd/bin.go:354","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-03-27T22:22:27.452+0530","caller":"cmd/bin.go:355","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-03-27T22:22:27.453+0530","caller":"cmd/bin.go:361","msg":"Sending request to abort job"}
+{"level":"debug","time":"2025-03-27T22:22:28.641+0530","caller":"cmd/bin.go:370","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2025-03-27T22:22:28.641+0530","caller":"core/lifecycle.go:864","msg":"Context canceled"}
+{"level":"info","time":"2025-03-27T22:22:28.642+0530","caller":"core/lifecycle.go:867","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-03-27T22:22:28.642+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/hyperexecute/task?jobId=ef236e19-8b02-4906-98c3-b95555632a91\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-27T22:22:28.642+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-27T22:22:28.642+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"error","time":"2025-03-27T22:23:28.644+0530","caller":"cmd/bin.go:377","msg":"2025-03-27T19:52:28+05:30    error    \u001b[91mERR::TIME::OUT\u001b[0m     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
+{"level":"debug","time":"2025-03-27T22:29:54.646+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T22:29:55.568+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-27T22:29:58.027+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-27T22:29:58.028+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-27T22:29:58.028+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T22:29:58.028+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T22:29:58.029+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T22:29:58.029+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T22:29:58.029+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-27T22:29:58.910+0530","caller":"core/lifecycle.go:115","msg":"2025-03-27T22:29:53+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key HYP-13671-secret not found in vault"}
+{"level":"debug","time":"2025-03-27T22:29:58.910+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-27T22:29:58.910+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-27T22:29:58.910+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-27T22:29:58.910+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key HYP-13671-secret not found in vault"}
+{"level":"debug","time":"2025-03-27T22:30:16.051+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-27T22:30:16.968+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-27T22:30:19.393+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-27T22:30:19.394+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-27T22:30:19.394+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T22:30:19.394+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-27T22:30:19.396+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T22:30:19.396+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-27T22:30:19.396+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-27T22:30:20.209+0530","caller":"core/lifecycle.go:115","msg":"2025-03-27T22:30:15+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key HYP-13671-secret not found in vault"}
+{"level":"debug","time":"2025-03-27T22:30:20.210+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-27T22:30:20.210+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-27T22:30:20.210+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-27T22:30:20.210+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key HYP-13671-secret not found in vault"}
+{"level":"debug","time":"2025-03-28T07:01:57.511+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-28T07:01:58.355+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-28T07:02:01.939+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-28T07:02:01.940+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-28T07:02:01.940+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:02:01.940+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:02:01.942+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:02:01.942+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:02:01.942+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-28T07:02:02.863+0530","caller":"core/lifecycle.go:115","msg":"2025-03-28T07:01:56+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-03-28T07:02:02.863+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-28T07:02:02.863+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-28T07:02:02.863+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-28T07:02:02.863+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-03-28T07:03:25.813+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-28T07:03:26.624+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-28T07:03:29.215+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-28T07:03:29.216+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-28T07:03:29.217+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:03:29.217+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:03:29.219+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:03:29.219+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:03:29.219+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:03:30.021+0530","caller":"yamlconfigmanager/setup.go:2025","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"warn","time":"2025-03-28T07:03:30.819+0530","caller":"yamlconfigmanager/setup.go:1721","msg":"Error while fetching supported OS versions from KV: \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 404    Failed to fetch platform supported OS"}
+{"level":"debug","time":"2025-03-28T07:03:30.820+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-28T07:03:30.820+0530","caller":"models/HypertestYamlConfig.go:850","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:649","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Parallelism:    \u001b[36m Windows - 4  Default - 4\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:711","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:783","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:797","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:800","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:815","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:817","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:03:30.822+0530","caller":"models/HypertestYamlConfig.go:863","msg":""}
+{"level":"debug","time":"2025-03-28T07:03:30.822+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:03:30.823+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-03-28T07:03:34.115+0530","caller":"core/lifecycle.go:506","msg":"Job ID: e0699abb-c10f-49d2-95e8-7bd70c51eadb"}
+{"level":"debug","time":"2025-03-28T07:03:34.115+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-28T07:03:34.117+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-28T07:03:34.117+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-28T07:03:34.117+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-28T07:03:34.140+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:03:34.145+0530","caller":"core/lifecycle.go:649","msg":"Zip file size: 16.26 kB"}
+{"level":"debug","time":"2025-03-28T07:03:34.145+0530","caller":"core/lifecycle.go:659","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-e0699abb-c10f-49d2-95e8-7bd70c51eadb.zip\n"}
+{"level":"debug","time":"2025-03-28T07:03:34.145+0530","caller":"storage/azure.go:59","msg":"Payload size: 16.26 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-e0699abb-c10f-49d2-95e8-7bd70c51eadb.zip"}
+{"level":"debug","time":"2025-03-28T07:03:34.308+0530","caller":"storage/azure.go:59","msg":"Payload size: 29.79 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-28T07:03:34.403+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:03:35.384+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:03:36.029+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:03:38.044+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:03:39.471+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:03:41.676+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-28T07:03:44.453+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.307416625s"}
+{"level":"debug","time":"2025-03-28T07:03:44.453+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-28T07:03:44.453+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-28T07:03:44.454+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:03:44.454+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.27 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:03:47.065+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-28T07:03:52.491+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.182667792s"}
+{"level":"debug","time":"2025-03-28T07:03:56.747+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-28T07:04:00.531+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.076720125s"}
+{"level":"debug","time":"2025-03-28T07:04:00.531+0530","caller":"core/lifecycle.go:686","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-e0699abb-c10f-49d2-95e8-7bd70c51eadb.zip\n"}
+{"level":"debug","time":"2025-03-28T07:04:00.532+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.04 kB, source path mask-e0699abb-c10f-49d2-95e8-7bd70c51eadb.yaml"}
+{"level":"debug","time":"2025-03-28T07:04:07.895+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-03-28T07:04:10.594+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.061295625s"}
+{"level":"info","time":"2025-03-28T07:04:12.860+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob \u001b[1m\u001b[4me0699abb-c10f-49d2-95e8-7bd70c51eadb\u001b[24m\u001b[22m has \u001b[97mINITIATED\u001b[0m"}
+{"level":"info","time":"2025-03-28T07:04:12.861+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/hyperexecute/task?jobId=e0699abb-c10f-49d2-95e8-7bd70c51eadb\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-28T07:04:21.136+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:04:50.056+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T07:05:21.879+0530","caller":"cmd/bin.go:354","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-03-28T07:05:21.881+0530","caller":"cmd/bin.go:355","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-03-28T07:05:21.881+0530","caller":"cmd/bin.go:361","msg":"Sending request to abort job"}
+{"level":"debug","time":"2025-03-28T07:05:22.865+0530","caller":"cmd/bin.go:370","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2025-03-28T07:05:22.867+0530","caller":"core/lifecycle.go:864","msg":"Context canceled"}
+{"level":"info","time":"2025-03-28T07:05:22.867+0530","caller":"core/lifecycle.go:867","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-03-28T07:05:22.867+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/hyperexecute/task?jobId=e0699abb-c10f-49d2-95e8-7bd70c51eadb\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-03-28T07:05:22.867+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-28T07:05:22.868+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"error","time":"2025-03-28T07:06:22.866+0530","caller":"cmd/bin.go:377","msg":"2025-03-28T07:03:24+05:30    error    \u001b[91mERR::TIME::OUT\u001b[0m     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
+{"level":"debug","time":"2025-03-28T07:07:23.787+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-28T07:07:24.605+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-28T07:07:26.154+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-28T07:07:26.155+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-28T07:07:26.155+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:07:26.156+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T07:07:26.157+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:07:26.157+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T07:07:26.157+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-28T07:07:27.061+0530","caller":"core/lifecycle.go:115","msg":"2025-03-28T07:07:22+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-03-28T07:07:27.062+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-28T07:07:27.062+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-28T07:07:27.062+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-28T07:07:27.062+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-03-28T11:40:30.798+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-28T11:40:31.709+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-28T11:40:34.123+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-28T11:40:34.123+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-28T11:40:34.123+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T11:40:34.123+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T11:40:34.125+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T11:40:34.125+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T11:40:34.125+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T11:40:35.057+0530","caller":"yamlconfigmanager/setup.go:2025","msg":"Autodetecting test type in files of path : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"warn","time":"2025-03-28T11:40:35.859+0530","caller":"yamlconfigmanager/setup.go:1721","msg":"Error while fetching supported OS versions from KV: \u001b[91mERR::HTTP::RESP\u001b[0m     non-20x status code 404    Failed to fetch platform supported OS"}
+{"level":"debug","time":"2025-03-28T11:40:35.859+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: %!t(<nil>)"}
+{"level":"info","time":"2025-03-28T11:40:35.859+0530","caller":"models/HypertestYamlConfig.go:850","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:649","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Parallelism:    \u001b[36m Windows - 4  Default - 4\u001b[0m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:711","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:783","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:797","msg":"Artefacts:"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:800","msg":"    TestReport:    \u001b[36mexample_report/**/*\u001b[0m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:815","msg":"Cache Directories:"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:817","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2025-03-28T11:40:35.860+0530","caller":"models/HypertestYamlConfig.go:863","msg":""}
+{"level":"debug","time":"2025-03-28T11:40:35.860+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T11:40:35.860+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-03-28T11:40:37.928+0530","caller":"core/lifecycle.go:506","msg":"Job ID: df0334a7-95f0-4e6c-9c6d-3e6d827683c9"}
+{"level":"debug","time":"2025-03-28T11:40:37.928+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-03-28T11:40:37.929+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-03-28T11:40:37.931+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-03-28T11:40:37.931+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo"}
+{"level":"debug","time":"2025-03-28T11:40:37.961+0530","caller":"core/lifecycle.go:649","msg":"Zip file size: 16.26 kB"}
+{"level":"debug","time":"2025-03-28T11:40:37.961+0530","caller":"core/lifecycle.go:659","msg":"Archive location: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-df0334a7-95f0-4e6c-9c6d-3e6d827683c9.zip\n"}
+{"level":"debug","time":"2025-03-28T11:40:37.961+0530","caller":"storage/azure.go:59","msg":"Payload size: 16.26 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-df0334a7-95f0-4e6c-9c6d-3e6d827683c9.zip"}
+{"level":"debug","time":"2025-03-28T11:40:37.977+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T11:40:38.136+0530","caller":"storage/azure.go:59","msg":"Payload size: 42.97 kB, source path /var/folders/7x/84p3wpq14ws51z6ysq6b3y200000gq/T/git.diff"}
+{"level":"debug","time":"2025-03-28T11:40:38.645+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T11:40:39.350+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T11:40:40.710+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T11:40:41.736+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T11:40:44.775+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-03-28T11:40:47.235+0530","caller":"cmd/bin.go:354","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2025-03-28T11:40:47.235+0530","caller":"cmd/bin.go:355","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2025-03-28T11:40:47.235+0530","caller":"cmd/bin.go:361","msg":"Sending request to abort job"}
+{"level":"debug","time":"2025-03-28T11:40:47.236+0530","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
+{"level":"debug","time":"2025-03-28T11:40:47.236+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-03-28T11:40:47.624+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2025-03-28T11:40:48.090+0530","caller":"cmd/bin.go:370","msg":"main: telling goroutines to stop"}
+{"level":"info","time":"2025-03-28T11:40:48.092+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.131197292s"}
+{"level":"debug","time":"2025-03-28T11:40:48.092+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-03-28T11:40:48.093+0530","caller":"receptionmanager/setup.go:306","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2025-03-28T11:40:48.093+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T11:40:48.093+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.27 kB, source path /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-03-28T11:40:56.835+0530","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2025-03-28T11:40:56.836+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2025-03-28T11:40:58.876+0530","caller":"storage/azure.go:114","msg":"File upload completed in 20.739977292s"}
+{"level":"info","time":"2025-03-28T11:41:04.870+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.7766725s"}
+{"level":"debug","time":"2025-03-28T11:41:04.872+0530","caller":"core/lifecycle.go:686","msg":"Successfully deleted code archive: /Users/rohanreddy/Desktop/hyper-exec-demo-repo/myhyper-execute-demo/hyperexecute-code-df0334a7-95f0-4e6c-9c6d-3e6d827683c9.zip\n"}
+{"level":"debug","time":"2025-03-28T11:41:04.874+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.04 kB, source path mask-df0334a7-95f0-4e6c-9c6d-3e6d827683c9.yaml"}
+{"level":"info","time":"2025-03-28T11:41:12.909+0530","caller":"storage/azure.go:114","msg":"File upload completed in 8.0349165s"}
+{"level":"error","time":"2025-03-28T11:41:12.911+0530","caller":"dispatchermanager/setup.go:79","msg":"2025-03-28T11:40:29+05:30    error    error while calling dispatcher Post \"https://api-hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/dispatcher/api/dispatcher\": POST https://api-hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/dispatcher/api/dispatcher giving up after 1 attempt(s): context canceled"}
+{"level":"error","time":"2025-03-28T11:41:12.911+0530","caller":"core/lifecycle.go:732","msg":"2025-03-28T11:40:29+05:30    error    \u001b[91mERR:HTTP:HOST\u001b[0m     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute-rohan-dev-env-dev.lambdatestinternal.com/dispatcher - dev "}
+{"level":"debug","time":"2025-03-28T11:41:12.911+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-28T11:41:12.911+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"error","time":"2025-03-28T11:41:48.091+0530","caller":"cmd/bin.go:377","msg":"2025-03-28T11:40:29+05:30    error    \u001b[91mERR::TIME::OUT\u001b[0m     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
+{"level":"debug","time":"2025-03-28T11:42:09.454+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-03-28T11:42:10.379+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.528} "}
+{"level":"debug","time":"2025-03-28T11:42:12.709+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-03-28T11:42:12.710+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-03-28T11:42:12.710+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T11:42:12.711+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-03-28T11:42:12.713+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T11:42:12.713+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-03-28T11:42:12.713+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-03-28T11:42:13.634+0530","caller":"core/lifecycle.go:115","msg":"2025-03-28T11:42:08+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-03-28T11:42:13.634+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-03-28T11:42:13.634+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-03-28T11:42:13.634+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-03-28T11:42:13.635+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-04-03T13:03:58.503+0530","caller":"cmd/bin.go:137","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-04-03T13:03:59.604+0530","caller":"cmd/bin.go:146","msg":"Upstream version details: {Name:cli Min:0.2.277 Max:0.2.533} "}
+{"level":"debug","time":"2025-04-03T13:04:02.973+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-04-03T13:04:02.973+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-04-03T13:04:02.973+0530","caller":"yamlconfigmanager/setup.go:702","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-04-03T13:04:02.973+0530","caller":"yamlconfigmanager/setup.go:115","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-04-03T13:04:02.974+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-04-03T13:04:02.974+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2025-04-03T13:04:02.974+0530","caller":"yamlconfigmanager/setup.go:1797","msg":"Environment variable not set against the variable - matrix.browser mentioned in yaml"}
+{"level":"error","time":"2025-04-03T13:04:04.141+0530","caller":"core/lifecycle.go:115","msg":"2025-04-03T13:03:57+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}
+{"level":"debug","time":"2025-04-03T13:04:04.141+0530","caller":"core/lifecycle.go:58","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-04-03T13:04:04.141+0530","caller":"core/lifecycle.go:59","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-04-03T13:04:04.141+0530","caller":"core/lifecycle.go:62","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-04-03T13:04:04.141+0530","caller":"cmd/bin.go:385","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Secret Key rohan-dev-testing not found in vault"}

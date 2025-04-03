@@ -15,7 +15,7 @@ parallelism: 4
 
  
 project:
-  name: testing-HYP-13671
+  name: HYP-13671
 
 autosplit: true
 retryOnFailure: true
@@ -25,7 +25,7 @@ maxRetries: 1
 # combineTasksInMatrixMode: true
 
 env:
-  TESTING_DELETE_LATER: ${{ .secrets.HYP-13671-secret }}
+  TESTING_DELETE_LATER: ${{ secrets.rohan-dev-testing }}
  
 
 cacheKey: '{{ checksum "requirements.txt" }}'

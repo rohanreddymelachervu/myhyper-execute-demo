@@ -18,7 +18,7 @@ differentialUpload:
     ttlHours: 60
 dynamicAllocation: false
 env:
-    TESTING_DELETE_LATER: ${{ .secrets.TESTING_DELETE_LATER }}
+    TESTING_DELETE_LATER: ${{ secrets.rohan-dev-testing }}
 errorCategorizedOnFailureOnly: false
 framework:
     additional_args: null
@@ -92,13 +92,11 @@ globalPre:
     type: ""
     workingDirectory: ""
 globalTimeout: 90
-jobID: 0599d941-10f9-423e-961c-15a78807d636
+jobID: df0334a7-95f0-4e6c-9c6d-3e6d827683c9
 jobLabel:
     - selenium-pyunit
     - autosplit
 key: cHBC1OyI5dRHq75Uk9CjVDiUYaAG4aGzYDWq3e41JayXKdmVx6
-linuxParallelism: 3
-linuxTestRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
 localHTTPProxy: ""
 matrix:
     browser:
@@ -106,12 +104,11 @@ matrix:
         - firefox
     os:
         - win
-        - linux
 maxRetries: 1
 maxRetriesPreSteps: 0
 mergeArtifacts: true
 meta: {}
-parallelism: 3
+parallelism: 4
 partialReports:
     type: json
     location: /
@@ -139,8 +136,8 @@ preDirectives:
     shell: ""
     workingDirectory: ""
 project:
-    id: 01JP54DQW0MWYE5D9Y6HJPPXYK
-    name: testing
+    id: 01JQD641VJ6P8J1ARAZVV3NX9G
+    name: HYP-13671
     type: default
 projectpath: ""
 regionConfig:
@@ -160,7 +157,6 @@ storageType: ""
 testDiscovery:
     autosubset: true
     command: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
-    linuxCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
     mode: dynamic
     type: raw
     winCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
@@ -185,5 +181,5 @@ user: hypautomationuser
 version: "0.1"
 waitForArtefactsUpload: false
 whiteLabelProductTag: ""
-winParallelism: 3
+winParallelism: 4
 winTestRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
