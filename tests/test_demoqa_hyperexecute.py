@@ -14,10 +14,11 @@ def driver(request):
     parser.add_argument("--OS", type=str)
     parser.add_argument("--browser", type=str)
 
-    args = parser.parse_args()
+    args, _ = parser.parse_known_args()
+
     print(f"test: {args.OS}, orr: {args.browser}")
-    secret_value = os.getenv("TESTING_DELETE_LATER", "No secret found")
-    print(f"[DEBUG] The secret is: {secret_value}")
+    # secret_value = os.getenv("TESTING_DELETE_LATER", "No secret found")
+    # print(f"[DEBUG] The secret is: {secret_value}")
     # Retrieve browser and OS values from command-line options
     browser = args.browser
     platform_name = args.OS
@@ -32,7 +33,6 @@ def driver(request):
 
     # Set Selenium capabilities using the command-line parameters
     options.set_capability("browserName", browser.capitalize())
-    options.set_capability("browser_version", "latest")
     options.set_capability("platform_name", platform_name)
 
     # Set LambdaTest-specific options
@@ -40,26 +40,31 @@ def driver(request):
         "username": os.getenv("LT_USERNAME"),
         "accessKey": os.getenv("LT_ACCESS_KEY"),
         "network": True,
+        "sessionName": f"HyperExecute DemoQA Test - {browser.capitalize()} on {platform_name}",
         "build": "HyperExecute DemoQA Test Build",
         "smartUI.project": "HyperExecute DemoQA Testing",
         "name": f"HyperExecute DemoQA Text Box Test - {browser.capitalize()} on {platform_name}",
         "w3c": True,
-        "plugin": "python-python"
+        "browserVersion": "latest-2",
+        "plugin": "python-python",
     }
     options.set_capability("LT:Options", lt_options)
-
+    print(lt_options)
     # Connect to the LambdaTest hub using the credentials
     hub_url = f"http://{os.getenv('LT_USERNAME')}:{os.getenv('LT_ACCESS_KEY')}@hub.lambdatest.com/wd/hub"
     driver = webdriver.Remote(command_executor=hub_url, options=options)
+    print(driver.capabilities)
     yield driver
     driver.quit()
 
 def test_demoqa_text_box(driver):
     driver.implicitly_wait(10)
+    print("The session id is:",driver.session_id)
     driver.set_page_load_timeout(60)
 
     # Step 1: Navigate to DemoQA
     driver.get("https://demoqa.com/")
+    print("Implicit wait set to 10 seconds")
 
     # Step 2: Click on the "Elements" card
     elements_card = WebDriverWait(driver, 10).until(
@@ -100,7 +105,7 @@ def test_demoqa_text_box(driver):
     print("Output text:", output_text)
 
     # Retrieve the secret value again (optional)
-    secret_value = os.getenv("TESTING_DELETE_LATER", "No secret found")
+    # secret_value = os.getenv("TESTING_DELETE_LATER", "No secret found")
 
     # Optionally, generate an artifact file containing the test output
     artifact_dir = "example_report"
@@ -109,7 +114,7 @@ def test_demoqa_text_box(driver):
     artifact_path = os.path.join(artifact_dir, "artifact.txt")
     with open(artifact_path, "w") as f:
         f.write("This is an automatically generated artifact file.\n")
-        f.write("Secret: " + secret_value + "\n")
+        # f.write("Secret: " + secret_value + "\n")
         f.write("Test Output:\n")
         f.write(output_text)
 

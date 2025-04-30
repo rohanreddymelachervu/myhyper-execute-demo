@@ -1,31 +1,37 @@
 ---
 version: 0.1
-globalTimeout: 90
-testSuiteTimeout: 90
-testSuiteStep: 90
+# globalTimeout: 70
+# testSuiteTimeout: 70
+# testSuiteStep: 70
 differentialUpload:
   enabled: true
   ttlHours: 60
 runson: ${matrix.os}
+# runson: win
 matrix:
   os: ["win"]
-  browser: [chrome, firefox]
+  browser: ["chrome"]
 
-parallelism: 4
+parallelism: 1
 
+# concurrency: 1
+
+# env:
+#   UserLevel: ${{ .secrets.UserLevel }}
+#   ProjectLevel: ${{ .secrets.ProjectLevel }}
+#   OrgLevel: ${{ .secrets.OrgLevel }}
  
 # project:
-#   name: HYP-13671
+#   name: rishabh-arya95/testng-selenium-hyperexecute-sample
 
 autosplit: true
 retryOnFailure: true
-
 maxRetries: 1
 # concurrency: 2
 # combineTasksInMatrixMode: true
 
-env:
-  TESTING_DELETE_LATER: ${{ secrets.rohan-dev-testing }}
+# env:
+#   TESTING_DELETE_LATER: ${{ secrets.rohan-dev-testing }}
  
 
 cacheKey: '{{ checksum "requirements.txt" }}'
@@ -33,6 +39,8 @@ cacheDirectories:
   - CacheDir
 pre:
   - pip3 install -r requirements.txt --cache-dir CacheDir
+
+
 post:
   - cat yaml/win/pyunit_hyperexecute_autosplit_sample.yaml
 
@@ -48,6 +56,10 @@ partialReports:
     type: json
     location: /
     frameworkName: extent
+project:
+#   id: 01JSYB97FCNRNEED6SQ3NCNV26
+  # id: 01JT0SYC80XRB5CTZVRHTMJ7NB
+  id: 01JT1BFQPKD50KQ0EKPVC1K6NM
 
 testDiscovery:
   type: raw

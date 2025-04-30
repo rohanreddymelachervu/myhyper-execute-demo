@@ -31,7 +31,7 @@ def driver(request):
 
     # Set standard capabilities
     options.set_capability("browserName", browser.capitalize())
-    options.set_capability("browser_version", "latest")
+    # options.set_capability("browser_version", "latest")
     options.set_capability("platform_name", platform_name)
 
     # Set LambdaTest-specific options
@@ -41,15 +41,20 @@ def driver(request):
         "network": True,
         "build": "HyperExecute DemoQA Test Build",
         "smartUI.project": "HyperExecute DemoQA Testing",
+        "browserVersion": "latest-3",
         "name": f"HyperExecute DemoQA Check Box Test - {browser.capitalize()} on {platform_name}",
         "w3c": True,
-        "plugin": "python-python"
+        "plugin": "python-python",
     }
     options.set_capability("LT:Options", lt_options)
-
+    print(lt_options)
     # Connect to LambdaTest hub using environment credentials
     hub_url = f"http://{os.getenv('LT_USERNAME')}:{os.getenv('LT_ACCESS_KEY')}@hub.lambdatest.com/wd/hub"
+
     driver = webdriver.Remote(command_executor=hub_url, options=options)
+    print("The session id is:",driver.session_id)
+    print("The browser name is:",browser)
+    print(driver.capabilities)
     yield driver
     driver.quit()
 
@@ -57,6 +62,7 @@ def driver(request):
 def test_demoqa_check_box(driver):
     # Set timeouts
     driver.implicitly_wait(10)
+    print("Implicit wait set to 10 seconds")
     driver.set_page_load_timeout(60)
     
     # Step 1: Navigate to DemoQA homepage

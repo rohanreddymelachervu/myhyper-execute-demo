@@ -17,8 +17,6 @@ differentialUpload:
     forcedDisabled: false
     ttlHours: 60
 dynamicAllocation: false
-env:
-    TESTING_DELETE_LATER: ${{ secrets.rohan-dev-testing }}
 errorCategorizedOnFailureOnly: false
 framework:
     additional_args: null
@@ -53,6 +51,7 @@ framework:
         skipInstall: false
         skipUninstallPreviousBuild: false
         skipXMLOnRun: false
+        smartUI: null
         testSuiteAppId: ""
         testSuitePath: ""
         uninstallPreviousBuild: false
@@ -91,24 +90,23 @@ globalPre:
     shell: ""
     type: ""
     workingDirectory: ""
-globalTimeout: 90
-jobID: df0334a7-95f0-4e6c-9c6d-3e6d827683c9
+    yamlPath: null
+jobID: 5f5f751a-0c63-469a-a95d-54a4b281beb8
 jobLabel:
     - selenium-pyunit
     - autosplit
-key: cHBC1OyI5dRHq75Uk9CjVDiUYaAG4aGzYDWq3e41JayXKdmVx6
+key: LT_TkLbsnmtXZIp2TKVlmXLLR2xtcLrlLPXORSaR3v8nxZNqUz
 localHTTPProxy: ""
 matrix:
     browser:
         - chrome
-        - firefox
     os:
         - win
 maxRetries: 1
 maxRetriesPreSteps: 0
 mergeArtifacts: true
 meta: {}
-parallelism: 4
+parallelism: 1
 partialReports:
     type: json
     location: /
@@ -136,9 +134,9 @@ preDirectives:
     shell: ""
     workingDirectory: ""
 project:
-    id: 01JQD641VJ6P8J1ARAZVV3NX9G
-    name: HYP-13671
-    type: default
+    id: 01JT1BFQPKD50KQ0EKPVC1K6NM
+    name: testing-project-rohan-for-timeout
+    type: custom
 projectpath: ""
 regionConfig:
     storage:
@@ -162,8 +160,6 @@ testDiscovery:
     winCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
 testDiscoveryResultV3: []
 testRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
-testSuiteStep: 90
-testSuiteTimeout: 90
 testSuites: []
 triggerMode: false
 tunnelOpts:
@@ -177,9 +173,9 @@ uploadArtefacts:
       name: TestReport
       path:
         - example_report/**/*
-user: hypautomationuser
+user: rohanreddy
 version: "0.1"
 waitForArtefactsUpload: false
 whiteLabelProductTag: ""
-winParallelism: 4
+winParallelism: 1
 winTestRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}

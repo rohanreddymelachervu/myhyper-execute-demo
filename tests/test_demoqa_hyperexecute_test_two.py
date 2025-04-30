@@ -11,7 +11,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--OS", type=str, required=True, help="Operating system for the test (e.g., 'win 10' or 'linux')")
     parser.add_argument("--browser", type=str, required=True, help="Browser to run tests on (e.g., 'chrome' or 'firefox')")
-    args = parser.parse_args()
+    args, _ = parser.parse_known_args()
+
 
     # Retrieve values from arguments
     browser = args.browser.lower()
@@ -27,7 +28,7 @@ def main():
 
     # Set Selenium capabilities using the command-line parameters
     options.set_capability("browserName", browser.capitalize())
-    options.set_capability("browser_version", "latest")
+    # options.set_capability("browser_version", "latest")
     options.set_capability("platform_name", platform_name)
 
     # Set LambdaTest-specific options
@@ -39,19 +40,24 @@ def main():
         "smartUI.project": "HyperExecute DemoQA Testing",
         "name": f"HyperExecute DemoQA Test Two - {browser.capitalize()} on {platform_name}",
         "w3c": True,
-        "plugin": "python-python"
+        "browserVersion": "latest-2",
+        "plugin": "python-python",
     }
+    print(lt_options)
     options.set_capability("LT:Options", lt_options)
 
     # Connect to the LambdaTest hub using credentials from environment variables
     hub_url = f"http://{os.getenv('LT_USERNAME')}:{os.getenv('LT_ACCESS_KEY')}@hub.lambdatest.com/wd/hub"
+    print("The hub url is:",hub_url)
     driver = webdriver.Remote(command_executor=hub_url, options=options)
-
+    print(driver.capabilities)
     try:
         # Navigate to LambdaTest homepage as a sample test
         driver.implicitly_wait(10)
         driver.set_page_load_timeout(60)
         driver.get("https://www.lambdatest.com/")
+        print("Navigated to LambdaTest homepage.")
+        print("The session id is:",driver.session_id)
 
         # Wait for a header element (assume the homepage has an <h1> header)
         header = WebDriverWait(driver, 10).until(
