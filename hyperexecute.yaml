@@ -2,7 +2,7 @@
 version: 0.1
 # globalTimeout: 70
 # testSuiteTimeout: 70
-# testSuiteStep: 70
+testSuiteStep: 700000
 differentialUpload:
   enabled: true
   ttlHours: 60
