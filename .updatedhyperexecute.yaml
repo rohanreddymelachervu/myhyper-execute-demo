@@ -91,8 +91,7 @@ globalPre:
     type: ""
     workingDirectory: ""
     yamlPath: null
-globalTimeout: 70
-jobID: b4d06c1d-c635-43a4-8fb8-a9b8597a9521
+jobID: 410dc659-8eea-40b4-829e-82abcdf422a4
 jobLabel:
     - selenium-pyunit
     - autosplit
@@ -161,7 +160,6 @@ testDiscovery:
     winCommand: grep -nri 'HyperTestPyUnit' tests -ir --include=\*.py | sed 's/:.*//'
 testDiscoveryResultV3: []
 testRunnerCommand: python3 $test --OS ${matrix.os} --browser ${matrix.browser}
-testSuiteStep: 70
 testSuites: []
 triggerMode: false
 tunnelOpts:
